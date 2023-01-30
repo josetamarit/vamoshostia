@@ -1,15 +1,20 @@
 #include <iostream>
-#include <istream>
-
-using namespace std;
-
-int main(){
-	int numero;
-	long suma;
-	cout<<"Introduce un número"<<endl;
-	cin>>numero;
-	suma= (numero*(numero+1))/2;
-	
-	cout<<"La suma de todos los números hasta "<<numero<<" es "<<suma<<endl;
-	return 0;
+int Sumv3(int num){
+    int sum = 0;
+    for(int i= 1; i <= num; i++){
+        sum = sum+i;
+    }
+    return sum;
+}
+int main()
+{
+    int num, sum= 0;
+    do{
+        std::cout << "Introduce número mayor que 0: ";
+        std::cin >> num;
+    }
+    while(num < 1);
+    sum = Sumv3(num);
+    std::cout<< "La suma entre 1 y " << num << " es :" << sum;
+    return 0;
 }
