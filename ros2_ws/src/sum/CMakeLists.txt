@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(examples_topics)
+project(examples_sum)
 
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
@@ -14,15 +14,11 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 
-add_executable(publisher publisher.cpp)
-ament_target_dependencies(publisher rclcpp std_msgs)
-
-add_executable(subscriber subscriber.cpp)
-ament_target_dependencies(subscriber rclcpp std_msgs)
+add_executable(sum sum.cpp)
+ament_target_dependencies(sum rclcpp std_msgs)
 
 install(TARGETS
-  publisher
-  subscriber
+  sum
   DESTINATION lib/${PROJECT_NAME}
 )
 

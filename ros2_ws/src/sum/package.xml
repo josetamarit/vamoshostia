@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="2">
-  <name>examples_topics</name>
+  <name>examples_sum</name>
   <version>0.0.1</version>
-  <description>Examples of topics publisher and subscriber</description>
+  <description>Examples of sum of numbers</description>
 
   <maintainer email="ecervera@uji.es">Enric Cervera</maintainer>
 
