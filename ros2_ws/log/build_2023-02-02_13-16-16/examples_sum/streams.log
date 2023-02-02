@@ -1,0 +1,22 @@
+[0.032s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/examples_sum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/examples_sum -- -j6 -l6
+[0.077s] [100%] Built target sum
+[0.085s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/examples_sum' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/examples_sum -- -j6 -l6
+[0.110s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/examples_sum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/examples_sum
+[0.116s] -- Install configuration: ""
+[0.120s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/lib/examples_sum/sum
+[0.123s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/ament_index/resource_index/package_run_dependencies/examples_sum
+[0.123s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/ament_index/resource_index/parent_prefix_path/examples_sum
+[0.123s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/examples_sum/environment/ament_prefix_path.sh
+[0.123s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/examples_sum/environment/ament_prefix_path.dsv
+[0.124s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/examples_sum/environment/path.sh
+[0.124s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/examples_sum/environment/path.dsv
+[0.124s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/examples_sum/local_setup.bash
+[0.124s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/examples_sum/local_setup.sh
+[0.124s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/examples_sum/local_setup.zsh
+[0.124s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/examples_sum/local_setup.dsv
+[0.124s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/examples_sum/package.dsv
+[0.124s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/ament_index/resource_index/packages/examples_sum
+[0.124s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/examples_sum/cmake/examples_sumConfig.cmake
+[0.124s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/examples_sum/cmake/examples_sumConfig-version.cmake
+[0.124s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/examples_sum/package.xml
+[0.127s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/examples_sum' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/examples_sum
