@@ -10,10 +10,15 @@ cin >> a;
 cout << "Introduce  b: ";
 cin >> b;
 
+while ( a<1 ){
+cout << "Introduce  a: ";
+cin >> a;
+}
+
 for (int I=a; I<=b; I++) {
 	suma+=I;
 	}
 
-std::cout << "La suma es " << suma << std::endl;
+cout << "La suma es " << suma << endl;
 return 0;
 }
