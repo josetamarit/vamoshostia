@@ -2,7 +2,6 @@
 #include <cassert>
 using namespace std;
 
-
 int main() {
 int a,b, suma=0;
 cout << "Introduce  a: ";
@@ -14,11 +13,14 @@ while ( a<1 ){
 cout << "Introduce  a: ";
 cin >> a;
 }
-
+while ( b<1 ){
+cout << "Introduce  b: ";
+cin >> b;
+}
 for (int I=a; I<=b; I++) {
 	suma+=I;
 	}
 
-cout << "La suma es " << suma << endl;
+cout << "La suma es  " << suma << std::endl;
 return 0;
 }
