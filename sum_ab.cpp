@@ -13,7 +13,7 @@ while ( a<1 ){
 cout << "Introduce  a: ";
 cin >> a;
 }
-while ( b<1 ){
+while ( b<a ){
 cout << "Introduce  b: ";
 cin >> b;
 }
