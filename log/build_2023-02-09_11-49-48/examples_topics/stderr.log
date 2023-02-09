@@ -1,0 +1,6 @@
+make[2]: *** Se borra el archivo 'CMakeFiles/publisher.dir/publisher.cpp.o'
+make[2]: *** [CMakeFiles/publisher.dir/build.make:63: CMakeFiles/publisher.dir/publisher.cpp.o] Interrupción
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/publisher.dir/all] Interrupción
+make[2]: *** [CMakeFiles/subscriber.dir/build.make:63: CMakeFiles/subscriber.dir/subscriber.cpp.o] Interrupción
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/subscriber.dir/all] Interrupción
+make: *** [Makefile:141: all] Interrupción

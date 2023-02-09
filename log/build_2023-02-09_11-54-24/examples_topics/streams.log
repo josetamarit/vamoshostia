@@ -1,0 +1,30 @@
+[0.022s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/build/examples_topics': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/build/examples_topics -- -j6 -l6
+[0.066s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher.dir/publisher.cpp.o[0m
+[0.068s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber.dir/subscriber.cpp.o[0m
+[2.412s] [ 75%] [32m[1mLinking CXX executable publisher[0m
+[2.637s] [ 75%] Built target publisher
+[4.005s] [100%] [32m[1mLinking CXX executable subscriber[0m
+[4.400s] [100%] Built target subscriber
+[4.414s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/build/examples_topics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/build/examples_topics -- -j6 -l6
+[4.430s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/build/examples_topics': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/build/examples_topics
+[4.435s] -- Install configuration: ""
+[4.435s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/lib/examples_topics/publisher
+[4.446s] -- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/lib/examples_topics/publisher" to ""
+[4.446s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/lib/examples_topics/subscriber
+[4.461s] -- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/lib/examples_topics/subscriber" to ""
+[4.461s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/ament_index/resource_index/package_run_dependencies/examples_topics
+[4.462s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/ament_index/resource_index/parent_prefix_path/examples_topics
+[4.462s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/environment/ament_prefix_path.sh
+[4.462s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/environment/ament_prefix_path.dsv
+[4.463s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/environment/path.sh
+[4.463s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/environment/path.dsv
+[4.463s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/local_setup.bash
+[4.464s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/local_setup.sh
+[4.464s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/local_setup.zsh
+[4.464s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/local_setup.dsv
+[4.465s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/package.dsv
+[4.465s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/ament_index/resource_index/packages/examples_topics
+[4.465s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/cmake/examples_topicsConfig.cmake
+[4.466s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/cmake/examples_topicsConfig-version.cmake
+[4.466s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/package.xml
+[4.473s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/build/examples_topics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/build/examples_topics

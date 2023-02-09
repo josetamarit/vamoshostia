@@ -1,0 +1,10 @@
+[0.037s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/build/examples_sum': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/build/examples_sum -- -j6 -l6
+[0.158s] [ 50%] [32mBuilding CXX object CMakeFiles/sum.dir/sum.cpp.o[0m
+[73.310s] make[2]: *** wait: No hay ningún proceso hijo.  Alto.
+[73.310s] make[2]: *** Se espera a que terminen otras tareas....
+[73.310s] make[2]: *** wait: No hay ningún proceso hijo.  Alto.
+[73.310s] make[1]: *** wait: No hay ningún proceso hijo.  Alto.
+[73.310s] make[1]: *** Se espera a que terminen otras tareas....
+[73.310s] make[1]: *** wait: No hay ningún proceso hijo.  Alto.
+[73.311s] make: *** [Makefile:141: all] Error 2
+[73.312s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/build/examples_sum' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/build/examples_sum -- -j6 -l6

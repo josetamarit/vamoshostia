@@ -1,0 +1,16 @@
+/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/lib/examples_sum/sum
+/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/ament_index/resource_index/package_run_dependencies/examples_sum
+/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/ament_index/resource_index/parent_prefix_path/examples_sum
+/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/environment/ament_prefix_path.sh
+/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/environment/ament_prefix_path.dsv
+/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/environment/path.sh
+/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/environment/path.dsv
+/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/local_setup.bash
+/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/local_setup.sh
+/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/local_setup.zsh
+/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/local_setup.dsv
+/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/package.dsv
+/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/ament_index/resource_index/packages/examples_sum
+/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/cmake/examples_sumConfig.cmake
+/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/cmake/examples_sumConfig-version.cmake
+/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/package.xml

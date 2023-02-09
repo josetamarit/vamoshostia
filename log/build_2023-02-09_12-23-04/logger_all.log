@@ -1,0 +1,242 @@
+[0.144s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.144s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2c24c10520>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2c24c10520>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2c24c10a60>)
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.165s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/usuario/Documentos/GitHub/vamoshostia'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'ros'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['cmake', 'python']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'cmake'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'python'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['python_setup_py']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'python_setup_py'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/build) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/build) ignored
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/install) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/install) ignored
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/log) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/log) ignored
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ros'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['cmake', 'python']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'cmake'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'python'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['python_setup_py']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'python_setup_py'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/examples) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/examples) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/examples) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/examples) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/examples) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/examples) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/examples) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/examples) by extension 'ros'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/examples) by extensions ['cmake', 'python']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/examples) by extension 'cmake'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/examples) by extension 'python'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/examples) by extensions ['python_setup_py']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/examples) by extension 'python_setup_py'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/examples/topics) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/examples/topics) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/examples/topics) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/examples/topics) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/examples/topics) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/examples/topics) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/examples/topics) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/examples/topics) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/examples/topics) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/src/examples/topics' with type 'ros.ament_cmake' and name 'examples_topics'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/sum) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/sum) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/sum) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/sum) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/sum) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/sum) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/sum) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/sum) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/sum) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/src/sum' with type 'ros.ament_cmake' and name 'examples_sum'
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.214s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/usuario/Documentos/GitHub/vamoshostia/install
+[0.216s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/foxy
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'examples_sum' build argument 'cmake_args' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'examples_sum' build argument 'cmake_target' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'examples_sum' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'examples_sum' build argument 'cmake_clean_cache' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'examples_sum' build argument 'cmake_clean_first' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'examples_sum' build argument 'cmake_force_configure' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'examples_sum' build argument 'ament_cmake_args' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'examples_sum' build argument 'catkin_cmake_args' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'examples_sum' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.264s] DEBUG:colcon.colcon_core.verb:Building package 'examples_sum' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usuario/Documentos/GitHub/vamoshostia/build/examples_sum', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum', 'merge_install': False, 'path': '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/sum', 'symlink_install': False, 'test_result_base': None}
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'examples_topics' build argument 'cmake_args' from command line to 'None'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'examples_topics' build argument 'cmake_target' from command line to 'None'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'examples_topics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'examples_topics' build argument 'cmake_clean_cache' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'examples_topics' build argument 'cmake_clean_first' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'examples_topics' build argument 'cmake_force_configure' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'examples_topics' build argument 'ament_cmake_args' from command line to 'None'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'examples_topics' build argument 'catkin_cmake_args' from command line to 'None'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'examples_topics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.265s] DEBUG:colcon.colcon_core.verb:Building package 'examples_topics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usuario/Documentos/GitHub/vamoshostia/build/examples_topics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics', 'merge_install': False, 'path': '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/examples/topics', 'symlink_install': False, 'test_result_base': None}
+[0.266s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.271s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.271s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/sum' with build type 'ament_cmake'
+[0.271s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/sum'
+[0.277s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.277s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.277s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.288s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/examples/topics' with build type 'ament_cmake'
+[0.288s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/examples/topics'
+[0.290s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/build/examples_sum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/build/examples_sum -- -j6 -l6
+[0.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/build/examples_topics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/build/examples_topics -- -j6 -l6
+[0.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/build/examples_topics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/build/examples_topics -- -j6 -l6
+[0.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/build/examples_topics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/build/examples_topics
+[0.412s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(examples_topics)
+[0.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/build/examples_topics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/build/examples_topics
+[0.418s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics' for CMake module files
+[0.419s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics' for CMake config files
+[0.419s] Level 1:colcon.colcon_core.shell:create_environment_hook('examples_topics', 'cmake_prefix_path')
+[0.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/hook/cmake_prefix_path.ps1'
+[0.422s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/hook/cmake_prefix_path.dsv'
+[0.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/hook/cmake_prefix_path.sh'
+[0.424s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/lib'
+[0.424s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/bin'
+[0.424s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/lib/pkgconfig/examples_topics.pc'
+[0.425s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/lib/python3.8/site-packages'
+[0.425s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/bin'
+[0.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/package.ps1'
+[0.429s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/package.dsv'
+[0.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/package.sh'
+[0.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/package.bash'
+[0.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/package.zsh'
+[0.432s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/colcon-core/packages/examples_topics)
+[0.453s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(examples_topics)
+[0.456s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics' for CMake module files
+[0.457s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics' for CMake config files
+[0.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('examples_topics', 'cmake_prefix_path')
+[0.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/hook/cmake_prefix_path.ps1'
+[0.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/hook/cmake_prefix_path.dsv'
+[0.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/hook/cmake_prefix_path.sh'
+[0.461s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/lib'
+[0.461s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/bin'
+[0.462s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/lib/pkgconfig/examples_topics.pc'
+[0.462s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/lib/python3.8/site-packages'
+[0.462s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/bin'
+[0.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/package.ps1'
+[0.465s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/package.dsv'
+[0.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/package.sh'
+[0.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/package.bash'
+[0.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/package.zsh'
+[0.466s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/colcon-core/packages/examples_topics)
+[4.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/build/examples_sum' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/build/examples_sum -- -j6 -l6
+[4.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/build/examples_sum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/build/examples_sum
+[4.854s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(examples_sum)
+[4.859s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum' for CMake module files
+[4.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/build/examples_sum' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/build/examples_sum
+[4.860s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum' for CMake config files
+[4.860s] Level 1:colcon.colcon_core.shell:create_environment_hook('examples_sum', 'cmake_prefix_path')
+[4.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/hook/cmake_prefix_path.ps1'
+[4.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/hook/cmake_prefix_path.dsv'
+[4.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/hook/cmake_prefix_path.sh'
+[4.866s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/lib'
+[4.866s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/bin'
+[4.866s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/lib/pkgconfig/examples_sum.pc'
+[4.866s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/lib/python3.8/site-packages'
+[4.866s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/bin'
+[4.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/package.ps1'
+[4.869s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/package.dsv'
+[4.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/package.sh'
+[4.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/package.bash'
+[4.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/package.zsh'
+[4.871s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/colcon-core/packages/examples_sum)
+[4.895s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(examples_sum)
+[4.900s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum' for CMake module files
+[4.900s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum' for CMake config files
+[4.900s] Level 1:colcon.colcon_core.shell:create_environment_hook('examples_sum', 'cmake_prefix_path')
+[4.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/hook/cmake_prefix_path.ps1'
+[4.903s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/hook/cmake_prefix_path.dsv'
+[4.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/hook/cmake_prefix_path.sh'
+[4.905s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/lib'
+[4.905s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/bin'
+[4.905s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/lib/pkgconfig/examples_sum.pc'
+[4.905s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/lib/python3.8/site-packages'
+[4.905s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/bin'
+[4.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/package.ps1'
+[4.908s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/package.dsv'
+[4.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/package.sh'
+[4.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/package.bash'
+[4.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/examples_sum/package.zsh'
+[4.911s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum/share/colcon-core/packages/examples_sum)
+[4.912s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.913s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.913s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.913s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.919s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.919s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.919s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.937s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.940s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usuario/Documentos/GitHub/vamoshostia/install/local_setup.ps1'
+[4.941s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/usuario/Documentos/GitHub/vamoshostia/install/_local_setup_util_ps1.py'
+[4.943s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usuario/Documentos/GitHub/vamoshostia/install/setup.ps1'
+[4.946s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usuario/Documentos/GitHub/vamoshostia/install/local_setup.sh'
+[4.947s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/usuario/Documentos/GitHub/vamoshostia/install/_local_setup_util_sh.py'
+[4.947s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usuario/Documentos/GitHub/vamoshostia/install/setup.sh'
+[4.951s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usuario/Documentos/GitHub/vamoshostia/install/local_setup.bash'
+[4.952s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usuario/Documentos/GitHub/vamoshostia/install/setup.bash'
+[4.954s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usuario/Documentos/GitHub/vamoshostia/install/local_setup.zsh'
+[4.954s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usuario/Documentos/GitHub/vamoshostia/install/setup.zsh'

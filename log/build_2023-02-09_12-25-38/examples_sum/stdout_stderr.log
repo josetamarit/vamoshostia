@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target sum[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sum.dir/sum.cpp.o[0m
+[01m[K/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/sum/sum.cpp:[m[K In function ‘[01m[Kvoid topic_callback(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/sum/sum.cpp:12:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope
+   12 |   [01;31m[Kpublisher[m[K->publish(message);
+      |   [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/sum.dir/build.make:63: CMakeFiles/sum.dir/sum.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/sum.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

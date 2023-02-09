@@ -1,0 +1,14 @@
+[0.032s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/build/examples_sum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/build/examples_sum -- -j6 -l6
+[0.063s] [35m[1mScanning dependencies of target sum[0m
+[0.080s] [ 50%] [32mBuilding CXX object CMakeFiles/sum.dir/sum.cpp.o[0m
+[1.045s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/sum/sum.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.045s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/sum/sum.cpp:22:68:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Krclcpp[m[K’
+[1.046s]    22 |   publisher=node->create_publisher<std_msgs::msg::Int32>("sum", 10)
+[1.046s]       |                                                                    [01;31m[K^[m[K
+[1.046s]       |                                                                    [32m[K;[m[K
+[1.046s]    23 |   [32m[Krclcpp[m[K::spin(node);
+[1.046s]       |   [32m[K~~~~~~[m[K                                                            
+[2.248s] make[2]: *** [CMakeFiles/sum.dir/build.make:63: CMakeFiles/sum.dir/sum.cpp.o] Error 1
+[2.248s] make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/sum.dir/all] Error 2
+[2.249s] make: *** [Makefile:141: all] Error 2
+[2.251s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/build/examples_sum' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/build/examples_sum -- -j6 -l6

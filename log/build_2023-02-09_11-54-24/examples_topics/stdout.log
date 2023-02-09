@@ -1,0 +1,26 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/publisher.dir/publisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/subscriber.dir/subscriber.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable publisher[0m
+[ 75%] Built target publisher
+[100%] [32m[1mLinking CXX executable subscriber[0m
+[100%] Built target subscriber
+-- Install configuration: ""
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/lib/examples_topics/publisher
+-- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/lib/examples_topics/publisher" to ""
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/lib/examples_topics/subscriber
+-- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/lib/examples_topics/subscriber" to ""
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/ament_index/resource_index/package_run_dependencies/examples_topics
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/ament_index/resource_index/parent_prefix_path/examples_topics
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/environment/ament_prefix_path.sh
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/environment/ament_prefix_path.dsv
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/environment/path.sh
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/environment/path.dsv
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/local_setup.bash
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/local_setup.sh
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/local_setup.zsh
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/local_setup.dsv
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/package.dsv
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/ament_index/resource_index/packages/examples_topics
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/cmake/examples_topicsConfig.cmake
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/cmake/examples_topicsConfig-version.cmake
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics/share/examples_topics/package.xml
