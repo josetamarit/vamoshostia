@@ -1,0 +1,52 @@
+[0.020s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/build/robot_trajectory': /usr/bin/cmake /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/install/robot_trajectory
+[0.033s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.053s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.220s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.246s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.249s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.345s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.383s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.384s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.489s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.533s] Error parsing '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/package.xml':
+[0.626s] Traceback (most recent call last):
+[0.626s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[0.626s]     root = dom.parseString(data)
+[0.626s]   File "/usr/lib/python3.8/xml/dom/minidom.py", line 1969, in parseString
+[0.626s]     return expatbuilder.parseString(string)
+[0.627s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 925, in parseString
+[0.627s]     return builder.parseString(string)
+[0.627s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 223, in parseString
+[0.627s]     parser.Parse(string, True)
+[0.627s] xml.parsers.expat.ExpatError: mismatched tag: line 24, column 2
+[0.627s] 
+[0.627s] During handling of the above exception, another exception occurred:
+[0.627s] 
+[0.627s] Traceback (most recent call last):
+[0.627s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[0.627s]     main()
+[0.627s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[0.627s]     raise e
+[0.627s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[0.627s]     package = parse_package_string(
+[0.627s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[0.627s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[0.627s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/package.xml':
+[0.627s] The manifest contains invalid XML:
+[0.627s] mismatched tag: line 24, column 2
+[0.651s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[0.651s]   execute_process(/usr/bin/python3
+[0.651s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.651s]   /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/package.xml
+[0.651s]   /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/build/robot_trajectory/ament_cmake_core/package.cmake)
+[0.651s]   returned error code 1
+[0.651s] Call Stack (most recent call first):
+[0.651s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.651s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.651s]   CMakeLists.txt:42 (ament_lint_auto_find_test_dependencies)
+[0.651s] 
+[0.651s] 
+[0.652s] -- Configuring incomplete, errors occurred!
+[0.652s] See also "/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/build/robot_trajectory/CMakeFiles/CMakeOutput.log".
+[0.652s] See also "/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/build/robot_trajectory/CMakeFiles/CMakeError.log".
+[0.663s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/build/robot_trajectory' returned '1': /usr/bin/cmake /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/install/robot_trajectory

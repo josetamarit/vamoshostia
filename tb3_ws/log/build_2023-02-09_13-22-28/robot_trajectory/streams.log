@@ -1,0 +1,23 @@
+[0.021s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/build/robot_trajectory': /usr/bin/cmake /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/install/robot_trajectory
+[0.035s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.061s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.243s] CMake Error at CMakeLists.txt:22 (find_package):
+[0.243s]   By not providing "Findament_cake.cmake" in CMAKE_MODULE_PATH this project
+[0.243s]   has asked CMake to find a package configuration file provided by
+[0.243s]   "ament_cake", but CMake did not find one.
+[0.243s] 
+[0.243s]   Could not find a package configuration file provided by "ament_cake" with
+[0.243s]   any of the following names:
+[0.243s] 
+[0.243s]     ament_cakeConfig.cmake
+[0.244s]     ament_cake-config.cmake
+[0.244s] 
+[0.244s]   Add the installation prefix of "ament_cake" to CMAKE_PREFIX_PATH or set
+[0.244s]   "ament_cake_DIR" to a directory containing one of the above files.  If
+[0.244s]   "ament_cake" provides a separate development package or SDK, be sure it has
+[0.244s]   been installed.
+[0.244s] 
+[0.244s] 
+[0.244s] -- Configuring incomplete, errors occurred!
+[0.244s] See also "/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/build/robot_trajectory/CMakeFiles/CMakeOutput.log".
+[0.247s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/build/robot_trajectory' returned '1': /usr/bin/cmake /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/install/robot_trajectory
