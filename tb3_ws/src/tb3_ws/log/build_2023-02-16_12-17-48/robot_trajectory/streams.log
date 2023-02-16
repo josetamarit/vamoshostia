@@ -1,0 +1,79 @@
+[0.018s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory
+[0.069s] -- The C compiler identification is GNU 9.4.0
+[0.120s] -- The CXX compiler identification is GNU 9.4.0
+[0.127s] -- Check for working C compiler: /usr/bin/cc
+[0.195s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.196s] -- Detecting C compiler ABI info
+[0.270s] -- Detecting C compiler ABI info - done
+[0.280s] -- Detecting C compile features
+[0.280s] -- Detecting C compile features - done
+[0.283s] -- Check for working CXX compiler: /usr/bin/c++
+[0.364s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.365s] -- Detecting CXX compiler ABI info
+[0.440s] -- Detecting CXX compiler ABI info - done
+[0.452s] -- Detecting CXX compile features
+[0.452s] -- Detecting CXX compile features - done
+[0.455s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.479s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.479s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.656s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.689s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.693s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.761s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.787s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.847s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.887s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.888s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.890s] -- Looking for pthread.h
+[0.973s] -- Looking for pthread.h - found
+[0.974s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.045s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.045s] -- Looking for pthread_create in pthreads
+[1.104s] -- Looking for pthread_create in pthreads - not found
+[1.105s] -- Looking for pthread_create in pthread
+[1.184s] -- Looking for pthread_create in pthread - found
+[1.185s] -- Found Threads: TRUE  
+[1.295s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.321s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.394s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.401s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.401s] -- Configured cppcheck include dirs: 
+[1.401s] -- Configured cppcheck exclude dirs and/or files: 
+[1.409s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.409s] -- Configured cpplint exclude dirs and/or files: 
+[1.410s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.413s] -- Added test 'lint_cmake' to check CMake code style
+[1.414s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.422s] -- Added test 'uncrustify' to check C / C++ code style
+[1.422s] -- Configured uncrustify additional arguments: 
+[1.423s] -- Added test 'xmllint' to check XML markup files
+[1.427s] -- Configuring done
+[1.439s] -- Generating done
+[1.441s] -- Build files have been written to: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory
+[1.447s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory
+[1.450s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory -- -j6 -l6
+[1.496s] [35m[1mScanning dependencies of target square[0m
+[1.532s] [ 50%] [32mBuilding CXX object CMakeFiles/square.dir/src/square.cpp.o[0m
+[3.946s] [100%] [32m[1mLinking CXX executable square[0m
+[4.218s] [100%] Built target square
+[4.230s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory -- -j6 -l6
+[4.268s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory
+[4.275s] -- Install configuration: ""
+[4.275s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/lib/robot_trajectory/square
+[4.286s] -- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/lib/robot_trajectory/square" to ""
+[4.287s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/ament_index/resource_index/package_run_dependencies/robot_trajectory
+[4.288s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/ament_index/resource_index/parent_prefix_path/robot_trajectory
+[4.289s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/environment/ament_prefix_path.sh
+[4.289s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/environment/ament_prefix_path.dsv
+[4.290s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/environment/path.sh
+[4.290s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/environment/path.dsv
+[4.291s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/local_setup.bash
+[4.292s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/local_setup.sh
+[4.292s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/local_setup.zsh
+[4.293s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/local_setup.dsv
+[4.294s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/package.dsv
+[4.295s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/ament_index/resource_index/packages/robot_trajectory
+[4.295s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/cmake/robot_trajectoryConfig.cmake
+[4.295s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/cmake/robot_trajectoryConfig-version.cmake
+[4.296s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/package.xml
+[4.298s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory
