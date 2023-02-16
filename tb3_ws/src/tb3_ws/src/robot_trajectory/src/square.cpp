@@ -11,9 +11,11 @@ int main(int argc, char * argv[])
   auto node = rclcpp::Node::make_shared("publisher");
   auto publisher = node->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
   geometry_msgs::msg::Twist message;
-  rclcpp::WallRate loop_rate(500ms);
+  rclcpp::WallRate loop_rate(10ms);
 
-  while (rclcpp::ok()) {
+int i=0, n=1000;
+  while (rclcpp::ok() && (i<n)) {
+    i++;
     message.linear.x= 1.0;
     message.angular.z=1.0;
     publisher->publish(message);
