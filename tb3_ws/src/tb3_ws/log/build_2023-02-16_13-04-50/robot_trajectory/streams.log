@@ -1,0 +1,20 @@
+[0.021s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory -- -j6 -l6
+[0.058s] [35m[1mScanning dependencies of target square[0m
+[0.079s] [ 50%] [32mBuilding CXX object CMakeFiles/square.dir/src/square.cpp.o[0m
+[1.211s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.211s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:17:7:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint i[m[K’
+[1.211s]    17 |   int [01;31m[Ki[m[K=0, n=1000;
+[1.211s]       |       [01;31m[K^[m[K
+[1.211s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:16:9:[m[K [01;36m[Knote: [m[K‘[01m[Kint i[m[K’ previously declared here
+[1.211s]    16 | for(int [01;36m[Ki[m[K=0; i<4;i++){
+[1.211s]       |         [01;36m[K^[m[K
+[1.220s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:46:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.220s]    46 |   return 0[01;31m[K;[m[K
+[1.220s]       |           [01;31m[K^[m[K
+[1.221s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:9:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.221s]     9 | [01;36m[K{[m[K
+[1.221s]       | [01;36m[K^[m[K
+[2.011s] make[2]: *** [CMakeFiles/square.dir/build.make:63: CMakeFiles/square.dir/src/square.cpp.o] Error 1
+[2.011s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/square.dir/all] Error 2
+[2.012s] make: *** [Makefile:141: all] Error 2
+[2.014s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory -- -j6 -l6

@@ -13,6 +13,7 @@ int main(int argc, char * argv[])
   geometry_msgs::msg::Twist message;
   rclcpp::WallRate loop_rate(10ms);
 
+for(int x=0; x<4;x++){
   int i=0, n=1000;
   while (rclcpp::ok() && (i<n)) {
     i++;
@@ -39,7 +40,7 @@ int main(int argc, char * argv[])
  
   message.angular.z=0;
   publisher->publish(message);
-  
+ }
   
   rclcpp::shutdown();
   return 0;
