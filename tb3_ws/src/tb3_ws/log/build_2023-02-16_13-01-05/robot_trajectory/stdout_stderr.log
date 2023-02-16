@@ -1,0 +1,18 @@
+[35m[1mScanning dependencies of target square[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/square.dir/src/square.cpp.o[0m
+[01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:29:7:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint i[m[K’
+   29 |   int [01;31m[Ki[m[K=0, n=1571;
+      |       [01;31m[K^[m[K
+[01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:16:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint i[m[K’ previously declared here
+   16 | int [01;36m[Ki[m[K=0, n=1000;
+      |     [01;36m[K^[m[K
+[01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:29:12:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint n[m[K’
+   29 |   int i=0, [01;31m[Kn[m[K=1571;
+      |            [01;31m[K^[m[K
+[01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:16:10:[m[K [01;36m[Knote: [m[K‘[01m[Kint n[m[K’ previously declared here
+   16 | int i=0, [01;36m[Kn[m[K=1000;
+      |          [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/square.dir/build.make:63: CMakeFiles/square.dir/src/square.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/square.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
