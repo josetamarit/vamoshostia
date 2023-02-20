@@ -26,6 +26,19 @@ int main(int argc, char** argv){
         }
     }
 
+    //Calculate the max value
+
+    int maxvalue=0;
+    double maxkey=0;
+
+    for(const auto&pair:dicc){
+        if(pair.second>maxvalue){
+            maxkey= pair.first;
+            maxvalue=pair.second;
+        }
+    }
+
+    m=maxkey;
 
     cout<<"Mode: "<<m<<endl;
     return 0;
