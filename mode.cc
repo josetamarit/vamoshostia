@@ -13,6 +13,14 @@ int main(int argc, char** argv){
         cin>>element;
     }
 
+    //Count number of elements equal to the first one
+    int x;
+    for(int i=0; i<elements.size();i++){
+        if(elements[0]==elements[i]){
+            x++;
+        }
+    }
+
     cout<<"Mode: "<<m<<endl;
     return 0;
 }
