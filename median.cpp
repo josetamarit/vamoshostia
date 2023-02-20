@@ -12,7 +12,10 @@ int main(int argc, char** argv){
         n+=1;
         cin>>element;
     }
+    //Sorting de vector
+    elements=sort(elements);
 
+    cout<<"Elements sorted: "<<elements<<endl;
     cout<<"Median: "<<m<<endl;
     return 0;
 }
