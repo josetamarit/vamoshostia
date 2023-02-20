@@ -1,6 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <map>
+#include "utils.cc"
 using namespace std;
 
 int main(int argc, char** argv){
