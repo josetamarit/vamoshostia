@@ -18,6 +18,8 @@ int main(int argc, char** argv){
     //Si la muestra es impar
     if(n%2!=0){
         m=elements[n/2];
+    }else{
+        m=(elements[n/2]+elements[n/2+1])/2;
     }
 
     //Number of elements is the n variable
