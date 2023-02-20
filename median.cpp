@@ -13,9 +13,10 @@ int main(int argc, char** argv){
         cin>>element;
     }
     //Sorting de vector
-    elements=sort(elements);
-
-    cout<<"Elements sorted: "<<elements<<endl;
+    //Number of elements is the n variable
+    
+    cout<<"Number of elements: "<<n<<endl;
     cout<<"Median: "<<m<<endl;
+
     return 0;
 }
