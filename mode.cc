@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <map>
 using namespace std;
 
 int main(int argc, char** argv){
@@ -13,13 +14,18 @@ int main(int argc, char** argv){
         cin>>element;
     }
 
-    //Count number of elements equal to the first one
-    int x;
+    //Count number of elements equal to whichever
+    map<double,int> dicc;
     for(int i=0; i<elements.size();i++){
-        if(elements[0]==elements[i]){
-            x++;
+        int x=0;
+        for(int j=0; j<elements.size();j++){
+            if(elements[i]==elements[j]){
+                x++;
+            }
+            dicc[i]=x;
         }
     }
+
 
     cout<<"Mode: "<<m<<endl;
     return 0;
