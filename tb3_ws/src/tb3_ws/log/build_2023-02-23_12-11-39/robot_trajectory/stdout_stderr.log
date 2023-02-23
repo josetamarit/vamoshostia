@@ -1,0 +1,15 @@
+[35m[1mScanning dependencies of target square[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/square.dir/src/square.cpp.o[0m
+[01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:29:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kmessage[m[K’
+   29 |   message.linear.x=0.1
+      |                       [01;31m[K^[m[K
+      |                       [32m[K;[m[K
+   30 |   [32m[Kmessage[m[K.linear.x= speed;
+      |   [32m[K~~~~~~~[m[K              
+[01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:17:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kspeed[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   17 | double [01;35m[Kspeed[m[K = node->get_parameter("speed").get_parameter_value().get<double>();
+      |        [01;35m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/square.dir/build.make:63: CMakeFiles/square.dir/src/square.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/square.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

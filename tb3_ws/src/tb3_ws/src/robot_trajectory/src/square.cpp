@@ -10,14 +10,16 @@ int main(int argc, char * argv[])
   rclcpp::init(argc, argv);
   auto node = rclcpp::Node::make_shared("publisher");
   auto publisher = node->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
+  node-> declare_parameter("speed", 0.1);
   geometry_msgs::msg::Twist message;
   rclcpp::WallRate loop_rate(10ms);
 
+double speed = node->get_parameter("speed").get_parameter_value().get<double>();
 for(int x=0; x<4;x++){
   int i=0, n=1000;
   while (rclcpp::ok() && (i<n)) {
     i++;
-    message.linear.x= 0.1;
+    message.linear.x= speed;
     message.angular.z=0;
     publisher->publish(message);
     rclcpp::spin_some(node);
