@@ -12,7 +12,7 @@ int main(int argc, char * argv[])
   auto node = rclcpp::Node::make_shared("publisher");
   auto publisher = node->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
   node-> declare_parameter("linear_speed", 0.1);
-  node-> declare_parameter("angular_speed", 3.1416/20);
+  node-> declare_parameter("angular_speed", M_PI/20);
   node-> declare_parameter("square_length", 1.0);
   geometry_msgs::msg::Twist message;
   rclcpp::WallRate loop_rate(10ms);
@@ -35,7 +35,7 @@ for(int x=0; x<4;x++){
   publisher->publish(message);
   
   i=0;
-  n=(3.1416/2)/(0.01*angular_speed);
+  n=(M_PI/2)/(0.01*angular_speed);
   while (rclcpp::ok() && (i<n)) {
     i++;
     message.linear.x= 0;
