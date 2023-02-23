@@ -1,0 +1,266 @@
+[0.027s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory -- -j6 -l6
+[0.072s] [35m[1mScanning dependencies of target square[0m
+[0.102s] [ 50%] [32mBuilding CXX object CMakeFiles/square.dir/src/square.cpp.o[0m
+[1.198s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.198s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:22:86:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kauto[m[K’
+[1.198s]    22 | double square_length= node->get_parameter("square_length").get_parameter_value().get<[01;31m[Kauto[m[K>();
+[1.198s]       |                                                                                      [01;31m[K^~~~[m[K
+[1.198s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:22:92:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::ParameterValue::get<<expression error> >() const[m[K’
+[1.198s]    22 | double square_length= node->get_parameter("square_length").get_parameter_value().get<auto>([01;31m[K)[m[K;
+[1.198s]       |                                                                                            [01;31m[K^[m[K
+[1.198s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26[m[K,
+[1.198s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[1.198s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[1.198s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.199s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.199s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.199s]                  from [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:2[m[K:
+[1.199s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:148:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BOOL), const bool&>::type rclcpp::ParameterValue::get() const[m[K’
+[1.199s]   148 |   [01;36m[Kget[m[K() const
+[1.199s]       |   [01;36m[K^~~[m[K
+[1.199s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:148:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.199s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:22:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.199s]    22 | double square_length= node->get_parameter("square_length").get_parameter_value().get<auto>([01;31m[K)[m[K;
+[1.199s]       |                                                                                            [01;31m[K^[m[K
+[1.199s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26[m[K,
+[1.199s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[1.199s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[1.199s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.199s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.199s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.199s]                  from [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:2[m[K:
+[1.199s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:159:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_INTEGER), const long int&>::type rclcpp::ParameterValue::get() const[m[K’
+[1.199s]   159 |   [01;36m[Kget[m[K() const
+[1.199s]       |   [01;36m[K^~~[m[K
+[1.199s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:159:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.200s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:22:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.200s]    22 | double square_length= node->get_parameter("square_length").get_parameter_value().get<auto>([01;31m[K)[m[K;
+[1.200s]       |                                                                                            [01;31m[K^[m[K
+[1.200s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26[m[K,
+[1.200s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[1.200s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[1.200s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.200s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.200s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.200s]                  from [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:2[m[K:
+[1.200s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:170:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_DOUBLE), const double&>::type rclcpp::ParameterValue::get() const[m[K’
+[1.200s]   170 |   [01;36m[Kget[m[K() const
+[1.200s]       |   [01;36m[K^~~[m[K
+[1.200s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:170:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.200s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:22:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.200s]    22 | double square_length= node->get_parameter("square_length").get_parameter_value().get<auto>([01;31m[K)[m[K;
+[1.200s]       |                                                                                            [01;31m[K^[m[K
+[1.200s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26[m[K,
+[1.200s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[1.200s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[1.201s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.201s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.201s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.201s]                  from [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:2[m[K:
+[1.201s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:181:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_STRING), const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const[m[K’
+[1.201s]   181 |   [01;36m[Kget[m[K() const
+[1.201s]       |   [01;36m[K^~~[m[K
+[1.201s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:181:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.201s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:22:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.201s]    22 | double square_length= node->get_parameter("square_length").get_parameter_value().get<auto>([01;31m[K)[m[K;
+[1.201s]       |                                                                                            [01;31m[K^[m[K
+[1.201s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26[m[K,
+[1.201s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[1.201s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[1.201s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.201s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.201s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.201s]                  from [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:2[m[K:
+[1.201s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:193:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BYTE_ARRAY), const std::vector<unsigned char, std::allocator<unsigned char> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[1.202s]   193 |   [01;36m[Kget[m[K() const
+[1.202s]       |   [01;36m[K^~~[m[K
+[1.202s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:193:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.202s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:22:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.202s]    22 | double square_length= node->get_parameter("square_length").get_parameter_value().get<auto>([01;31m[K)[m[K;
+[1.202s]       |                                                                                            [01;31m[K^[m[K
+[1.202s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26[m[K,
+[1.202s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[1.202s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[1.202s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.202s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.202s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.202s]                  from [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:2[m[K:
+[1.202s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:205:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BOOL_ARRAY), const std::vector<bool, std::allocator<bool> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[1.202s]   205 |   [01;36m[Kget[m[K() const
+[1.202s]       |   [01;36m[K^~~[m[K
+[1.202s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:205:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.202s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:22:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.202s]    22 | double square_length= node->get_parameter("square_length").get_parameter_value().get<auto>([01;31m[K)[m[K;
+[1.202s]       |                                                                                            [01;31m[K^[m[K
+[1.202s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26[m[K,
+[1.203s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[1.203s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[1.203s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.203s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.203s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.203s]                  from [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:2[m[K:
+[1.203s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:217:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_INTEGER_ARRAY), const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[1.203s]   217 |   [01;36m[Kget[m[K() const
+[1.203s]       |   [01;36m[K^~~[m[K
+[1.203s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:217:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.203s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:22:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.203s]    22 | double square_length= node->get_parameter("square_length").get_parameter_value().get<auto>([01;31m[K)[m[K;
+[1.203s]       |                                                                                            [01;31m[K^[m[K
+[1.203s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26[m[K,
+[1.203s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[1.203s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[1.203s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.203s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.203s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.203s]                  from [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:2[m[K:
+[1.203s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:229:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_DOUBLE_ARRAY), const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[1.203s]   229 |   [01;36m[Kget[m[K() const
+[1.203s]       |   [01;36m[K^~~[m[K
+[1.203s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:229:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.204s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:22:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.204s]    22 | double square_length= node->get_parameter("square_length").get_parameter_value().get<auto>([01;31m[K)[m[K;
+[1.204s]       |                                                                                            [01;31m[K^[m[K
+[1.204s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26[m[K,
+[1.204s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[1.204s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[1.204s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.204s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.204s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.204s]                  from [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:2[m[K:
+[1.204s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:241:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_STRING_ARRAY), const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[1.204s]   241 |   [01;36m[Kget[m[K() const
+[1.204s]       |   [01;36m[K^~~[m[K
+[1.204s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:241:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.204s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:22:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.204s]    22 | double square_length= node->get_parameter("square_length").get_parameter_value().get<auto>([01;31m[K)[m[K;
+[1.204s]       |                                                                                            [01;31m[K^[m[K
+[1.204s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26[m[K,
+[1.204s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[1.204s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[1.204s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.204s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.204s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.204s]                  from [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:2[m[K:
+[1.204s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:254:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_same<T, bool>::value, const bool&>::type rclcpp::ParameterValue::get() const[m[K’
+[1.204s]   254 |   [01;36m[Kget[m[K() const
+[1.205s]       |   [01;36m[K^~~[m[K
+[1.205s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:254:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.205s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:22:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.205s]    22 | double square_length= node->get_parameter("square_length").get_parameter_value().get<auto>([01;31m[K)[m[K;
+[1.205s]       |                                                                                            [01;31m[K^[m[K
+[1.205s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26[m[K,
+[1.205s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[1.205s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[1.205s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.205s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.205s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.205s]                  from [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:2[m[K:
+[1.205s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:263:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<(std::is_integral<_Tp>::value && (! std::is_same<T, bool>::value)), const long int&>::type rclcpp::ParameterValue::get() const[m[K’
+[1.205s]   263 |   [01;36m[Kget[m[K() const
+[1.205s]       |   [01;36m[K^~~[m[K
+[1.205s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:263:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.205s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:22:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.205s]    22 | double square_length= node->get_parameter("square_length").get_parameter_value().get<auto>([01;31m[K)[m[K;
+[1.205s]       |                                                                                            [01;31m[K^[m[K
+[1.205s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26[m[K,
+[1.205s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[1.205s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[1.205s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.205s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.206s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.206s]                  from [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:2[m[K:
+[1.206s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:271:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_floating_point<_Tp>::value, const double&>::type rclcpp::ParameterValue::get() const[m[K’
+[1.206s]   271 |   [01;36m[Kget[m[K() const
+[1.206s]       |   [01;36m[K^~~[m[K
+[1.206s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:271:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.206s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:22:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.206s]    22 | double square_length= node->get_parameter("square_length").get_parameter_value().get<auto>([01;31m[K)[m[K;
+[1.206s]       |                                                                                            [01;31m[K^[m[K
+[1.206s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26[m[K,
+[1.206s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[1.206s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[1.206s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.206s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.206s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.206s]                  from [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:2[m[K:
+[1.206s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:279:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, std::__cxx11::basic_string<char> >::value, const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const[m[K’
+[1.206s]   279 |   [01;36m[Kget[m[K() const
+[1.206s]       |   [01;36m[K^~~[m[K
+[1.206s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:279:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.206s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:22:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.206s]    22 | double square_length= node->get_parameter("square_length").get_parameter_value().get<auto>([01;31m[K)[m[K;
+[1.206s]       |                                                                                            [01;31m[K^[m[K
+[1.206s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26[m[K,
+[1.206s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[1.206s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[1.206s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.207s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.207s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.207s]                  from [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:2[m[K:
+[1.207s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:289:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<unsigned char, std::allocator<unsigned char> >&>::value, const std::vector<unsigned char, std::allocator<unsigned char> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[1.207s]   289 |   [01;36m[Kget[m[K() const
+[1.207s]       |   [01;36m[K^~~[m[K
+[1.207s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:289:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.207s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:22:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.207s]    22 | double square_length= node->get_parameter("square_length").get_parameter_value().get<auto>([01;31m[K)[m[K;
+[1.207s]       |                                                                                            [01;31m[K^[m[K
+[1.207s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26[m[K,
+[1.207s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[1.207s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[1.207s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.207s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.207s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.207s]                  from [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:2[m[K:
+[1.207s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:299:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<bool, std::allocator<bool> >&>::value, const std::vector<bool, std::allocator<bool> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[1.207s]   299 |   [01;36m[Kget[m[K() const
+[1.207s]       |   [01;36m[K^~~[m[K
+[1.207s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:299:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.207s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:22:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.207s]    22 | double square_length= node->get_parameter("square_length").get_parameter_value().get<auto>([01;31m[K)[m[K;
+[1.208s]       |                                                                                            [01;31m[K^[m[K
+[1.208s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26[m[K,
+[1.208s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[1.208s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[1.208s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.208s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.208s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.208s]                  from [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:2[m[K:
+[1.208s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:309:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<long int, std::allocator<long int> >&>::value, const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[1.208s]   309 |   [01;36m[Kget[m[K() const
+[1.208s]       |   [01;36m[K^~~[m[K
+[1.208s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:309:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.208s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:22:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.208s]    22 | double square_length= node->get_parameter("square_length").get_parameter_value().get<auto>([01;31m[K)[m[K;
+[1.208s]       |                                                                                            [01;31m[K^[m[K
+[1.208s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26[m[K,
+[1.208s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[1.208s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[1.208s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.208s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.208s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.208s]                  from [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:2[m[K:
+[1.208s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:319:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<double, std::allocator<double> >&>::value, const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[1.208s]   319 |   [01;36m[Kget[m[K() const
+[1.208s]       |   [01;36m[K^~~[m[K
+[1.208s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:319:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.209s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:22:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.209s]    22 | double square_length= node->get_parameter("square_length").get_parameter_value().get<auto>([01;31m[K)[m[K;
+[1.209s]       |                                                                                            [01;31m[K^[m[K
+[1.209s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26[m[K,
+[1.209s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[1.209s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[1.209s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.209s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.209s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.209s]                  from [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:2[m[K:
+[1.209s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:329:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<std::__cxx11::basic_string<char> >&>::value, const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[1.209s]   329 |   [01;36m[Kget[m[K() const
+[1.209s]       |   [01;36m[K^~~[m[K
+[1.209s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:329:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.209s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square.cpp:22:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.209s]    22 | double square_length= node->get_parameter("square_length").get_parameter_value().get<auto>([01;31m[K)[m[K;
+[1.209s]       |                                                                                            [01;31m[K^[m[K
+[1.997s] make[2]: *** [CMakeFiles/square.dir/build.make:63: CMakeFiles/square.dir/src/square.cpp.o] Error 1
+[1.998s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/square.dir/all] Error 2
+[1.998s] make: *** [Makefile:141: all] Error 2
+[2.000s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory -- -j6 -l6
