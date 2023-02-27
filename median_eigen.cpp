@@ -28,6 +28,10 @@ int main(){
         m = elements(middle);
     }
 
+<<<<<<< HEAD
     cout << "Mediana: " << m << endl;
+=======
+    cout << "Median: " << m << endl;
+>>>>>>> parent of 11ed184 (Error)
     return 0;
 }
