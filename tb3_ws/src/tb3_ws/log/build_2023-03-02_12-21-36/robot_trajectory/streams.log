@@ -1,0 +1,47 @@
+[0.016s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory -- -j6 -l6
+[0.041s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.063s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.223s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.249s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.251s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.345s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.380s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.381s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.483s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.507s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.559s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.638s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.645s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.646s] -- Configured cppcheck include dirs: 
+[0.646s] -- Configured cppcheck exclude dirs and/or files: 
+[0.653s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.653s] -- Configured cpplint exclude dirs and/or files: 
+[0.654s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.656s] -- Added test 'lint_cmake' to check CMake code style
+[0.657s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.664s] -- Added test 'uncrustify' to check C / C++ code style
+[0.664s] -- Configured uncrustify additional arguments: 
+[0.665s] -- Added test 'xmllint' to check XML markup files
+[0.669s] -- Configuring done
+[0.684s] -- Generating done
+[0.686s] -- Build files have been written to: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory
+[0.712s] [35m[1mScanning dependencies of target square_odom[0m
+[0.729s] [ 50%] Built target square
+[0.737s] [ 75%] [32mBuilding CXX object CMakeFiles/square_odom.dir/src/square_odom.cpp.o[0m
+[1.796s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square_odom.cpp:9:27:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ does not name a type
+[1.796s]     9 | void topic_callback(const [01;31m[Knav_msgs[m[K::msg::Odometry msg)
+[1.796s]       |                           [01;31m[K^~~~~~~~[m[K
+[1.796s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square_odom.cpp:9:40:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[1.797s]     9 | void topic_callback(const nav_msgs::msg[01;31m[K::[m[KOdometry msg)
+[1.797s]       |                                        [01;31m[K^~[m[K
+[1.797s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square_odom.cpp:9:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[1.797s]     9 | void topic_callback[34m[K([m[Kconst nav_msgs::msg[01;31m[K:[m[K[32m[K:[m[KOdometry msg)
+[1.797s]       |                    [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+[1.797s]       |                                        [32m[K)[m[K
+[1.797s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square_odom.cpp:9:40:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+[1.797s]     9 | void topic_callback(const nav_msgs::msg[01;31m[K::[m[KOdometry msg)
+[1.797s]       |                                        [01;31m[K^~[m[K
+[2.092s] make[2]: *** [CMakeFiles/square_odom.dir/build.make:63: CMakeFiles/square_odom.dir/src/square_odom.cpp.o] Error 1
+[2.092s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/square_odom.dir/all] Error 2
+[2.092s] make: *** [Makefile:141: all] Error 2
+[2.095s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory -- -j6 -l6

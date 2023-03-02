@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target square_odom[0m
+[ 50%] Built target square
+[ 75%] [32mBuilding CXX object CMakeFiles/square_odom.dir/src/square_odom.cpp.o[0m

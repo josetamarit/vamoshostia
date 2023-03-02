@@ -80,10 +80,10 @@ square_odom_EXTERNAL_OBJECTS =
 square_odom: CMakeFiles/square_odom.dir/src/square_odom.cpp.o
 square_odom: CMakeFiles/square_odom.dir/build.make
 square_odom: /opt/ros/foxy/lib/librclcpp.so
-square_odom: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
-square_odom: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
-square_odom: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
-square_odom: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+square_odom: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_introspection_c.so
+square_odom: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_c.so
+square_odom: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so
+square_odom: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_cpp.so
 square_odom: /opt/ros/foxy/lib/liblibstatistics_collector.so
 square_odom: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
 square_odom: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so
@@ -113,7 +113,12 @@ square_odom: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_c.so
 square_odom: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
 square_odom: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
 square_odom: /opt/ros/foxy/lib/libtracetools.so
+square_odom: /opt/ros/foxy/lib/libnav_msgs__rosidl_generator_c.so
+square_odom: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
 square_odom: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so
+square_odom: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
+square_odom: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+square_odom: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 square_odom: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 square_odom: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
 square_odom: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so

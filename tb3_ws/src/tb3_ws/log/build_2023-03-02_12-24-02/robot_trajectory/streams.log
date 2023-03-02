@@ -1,0 +1,38 @@
+[0.017s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory -- -j6 -l6
+[0.064s] [35m[1mScanning dependencies of target square_odom[0m
+[0.079s] [ 50%] Built target square
+[0.082s] [ 75%] [32mBuilding CXX object CMakeFiles/square_odom.dir/src/square_odom.cpp.o[0m
+[1.035s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square_odom.cpp:9:27:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ does not name a type
+[1.035s]     9 | void topic_callback(const [01;31m[Knav_msgs[m[K::msg::Odometry msg){
+[1.035s]       |                           [01;31m[K^~~~~~~~[m[K
+[1.035s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square_odom.cpp:9:40:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[1.035s]     9 | void topic_callback(const nav_msgs::msg[01;31m[K::[m[KOdometry msg){
+[1.035s]       |                                        [01;31m[K^~[m[K
+[1.035s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square_odom.cpp:9:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[1.035s]     9 | void topic_callback[34m[K([m[Kconst nav_msgs::msg[01;31m[K:[m[K[32m[K:[m[KOdometry msg){
+[1.035s]       |                    [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+[1.035s]       |                                        [32m[K)[m[K
+[1.035s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square_odom.cpp:9:40:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+[1.035s]     9 | void topic_callback(const nav_msgs::msg[01;31m[K::[m[KOdometry msg){
+[1.035s]       |                                        [01;31m[K^~[m[K
+[1.037s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square_odom.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.037s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square_odom.cpp:17:49:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ was not declared in this scope
+[1.037s]    17 |   auto subscription = node->create_subscription<[01;31m[Knav_msgs[m[K::msg::Odometry>("odom", 10, topic_callback);
+[1.037s]       |                                                 [01;31m[K^~~~~~~~[m[K
+[1.037s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square_odom.cpp:17:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[1.037s]    17 |   auto subscription = node->[01;31m[Kcreate_subscription<nav_msgs::msg::Odometry>[m[K("odom", 10, topic_callback);
+[1.037s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.039s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square_odom.cpp:17:86:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_callback[m[K’ was not declared in this scope
+[1.039s]    17 | node->create_subscription<nav_msgs::msg::Odometry>("odom", 10, [01;31m[Ktopic_callback[m[K);
+[1.039s]       |                                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.039s] 
+[1.047s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square_odom.cpp:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope
+[1.047s]    33 |     [01;31m[Kpublisher[m[K->publish(message);
+[1.047s]       |     [01;31m[K^~~~~~~~~[m[K
+[1.049s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square_odom.cpp:39:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope
+[1.050s]    39 |   [01;31m[Kpublisher[m[K->publish(message);
+[1.050s]       |   [01;31m[K^~~~~~~~~[m[K
+[1.339s] make[2]: *** [CMakeFiles/square_odom.dir/build.make:63: CMakeFiles/square_odom.dir/src/square_odom.cpp.o] Error 1
+[1.339s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/square_odom.dir/all] Error 2
+[1.339s] make: *** [Makefile:141: all] Error 2
+[1.342s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory -- -j6 -l6
