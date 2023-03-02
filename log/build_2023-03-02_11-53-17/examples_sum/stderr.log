@@ -1,0 +1,5 @@
+make[2]: *** wait: No hay ningún proceso hijo.  Alto.
+make[2]: *** Se espera a que terminen otras tareas....
+make[2]: *** wait: No hay ningún proceso hijo.  Alto.
+make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/sum.dir/all] Error 2
+make: *** [Makefile:141: all] Interrupción

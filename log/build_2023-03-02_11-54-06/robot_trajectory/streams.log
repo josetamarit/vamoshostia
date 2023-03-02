@@ -1,0 +1,25 @@
+[0.020s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/build/robot_trajectory': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/build/robot_trajectory -- -j6 -l6
+[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/square.dir/src/square.cpp.o[0m
+[2.397s] [100%] [32m[1mLinking CXX executable square[0m
+[2.637s] [100%] Built target square
+[2.646s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/build/robot_trajectory' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/build/robot_trajectory -- -j6 -l6
+[2.670s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/build/robot_trajectory': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/build/robot_trajectory
+[2.676s] -- Install configuration: ""
+[2.676s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/lib/robot_trajectory/square
+[2.686s] -- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/lib/robot_trajectory/square" to ""
+[2.686s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/ament_index/resource_index/package_run_dependencies/robot_trajectory
+[2.687s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/ament_index/resource_index/parent_prefix_path/robot_trajectory
+[2.687s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/robot_trajectory/environment/ament_prefix_path.sh
+[2.687s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/robot_trajectory/environment/ament_prefix_path.dsv
+[2.688s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/robot_trajectory/environment/path.sh
+[2.688s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/robot_trajectory/environment/path.dsv
+[2.688s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/robot_trajectory/local_setup.bash
+[2.689s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/robot_trajectory/local_setup.sh
+[2.689s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/robot_trajectory/local_setup.zsh
+[2.690s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/robot_trajectory/local_setup.dsv
+[2.690s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/robot_trajectory/package.dsv
+[2.690s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/ament_index/resource_index/packages/robot_trajectory
+[2.691s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/robot_trajectory/cmake/robot_trajectoryConfig.cmake
+[2.691s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/robot_trajectory/cmake/robot_trajectoryConfig-version.cmake
+[2.691s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/robot_trajectory/package.xml
+[2.693s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/build/robot_trajectory' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/build/robot_trajectory

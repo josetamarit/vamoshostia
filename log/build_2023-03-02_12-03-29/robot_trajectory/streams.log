@@ -1,0 +1,11 @@
+[0.021s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/build/robot_trajectory': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/build/robot_trajectory -- -j6 -l6
+[0.055s] [ 25%] [32mBuilding CXX object CMakeFiles/square_odom.dir/src/square_odom.cpp.o[0m
+[0.062s] [ 75%] Built target square
+[0.064s] [01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square_odom.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No existe el archivo o el directorio
+[0.064s]     2 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.064s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.064s] compilation terminated.
+[0.064s] make[2]: *** [CMakeFiles/square_odom.dir/build.make:63: CMakeFiles/square_odom.dir/src/square_odom.cpp.o] Error 1
+[0.065s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/square_odom.dir/all] Error 2
+[0.066s] make: *** [Makefile:141: all] Error 2
+[0.067s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/build/robot_trajectory' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/build/robot_trajectory -- -j6 -l6

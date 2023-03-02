@@ -1,0 +1,25 @@
+[0.037s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/build/examples_topics': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/build/examples_topics -- -j6 -l6
+[0.164s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.201s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.475s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.531s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.537s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.655s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.700s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.702s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.100s] -- Configuring done
+[1.309s] -- Generating done
+[1.336s] -- Build files have been written to: /home/usuario/Documentos/GitHub/vamoshostia/build/examples_topics
+[1.561s] [35m[1mScanning dependencies of target subscriber[0m
+[1.561s] [35m[1mScanning dependencies of target publisher[0m
+[1.732s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher.dir/publisher.cpp.o[0m
+[1.733s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber.dir/subscriber.cpp.o[0m
+[29.419s] make[2]: *** Se borra el archivo 'CMakeFiles/publisher.dir/publisher.cpp.o'
+[29.421s] make[2]: *** wait: No hay ningún proceso hijo.  Alto.
+[29.421s] make[2]: *** Se espera a que terminen otras tareas....
+[29.421s] make[2]: *** wait: No hay ningún proceso hijo.  Alto.
+[29.421s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/subscriber.dir/all] Error 2
+[29.422s] make[2]: *** [CMakeFiles/publisher.dir/build.make:63: CMakeFiles/publisher.dir/publisher.cpp.o] Interrupción
+[29.423s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/publisher.dir/all] Interrupción
+[29.423s] make: *** [Makefile:141: all] Interrupción
+[29.501s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/build/examples_topics' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/build/examples_topics -- -j6 -l6
