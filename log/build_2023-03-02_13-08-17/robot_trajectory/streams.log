@@ -1,0 +1,52 @@
+[0.022s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/build/robot_trajectory': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/build/robot_trajectory -- -j6 -l6
+[0.040s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.055s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.204s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.230s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.232s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.329s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.366s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.367s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.473s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.498s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.551s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.622s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.629s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.629s] -- Configured cppcheck include dirs: 
+[0.629s] -- Configured cppcheck exclude dirs and/or files: 
+[0.636s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.636s] -- Configured cpplint exclude dirs and/or files: 
+[0.637s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.639s] -- Added test 'lint_cmake' to check CMake code style
+[0.641s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.648s] -- Added test 'uncrustify' to check C / C++ code style
+[0.648s] -- Configured uncrustify additional arguments: 
+[0.649s] -- Added test 'xmllint' to check XML markup files
+[0.652s] -- Configuring done
+[0.666s] -- Generating done
+[0.668s] -- Build files have been written to: /home/usuario/Documentos/GitHub/vamoshostia/build/robot_trajectory
+[0.694s] [35m[1mScanning dependencies of target square_odom[0m
+[0.712s] [ 50%] Built target square
+[0.723s] [ 75%] [32mBuilding CXX object CMakeFiles/square_odom.dir/src/square_odom.cpp.o[0m
+[4.990s] [100%] [32m[1mLinking CXX executable square_odom[0m
+[5.483s] [100%] Built target square_odom
+[5.493s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/build/robot_trajectory' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/build/robot_trajectory -- -j6 -l6
+[5.515s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/build/robot_trajectory': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/build/robot_trajectory
+[5.522s] -- Install configuration: ""
+[5.525s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/lib/robot_trajectory/square
+[5.529s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/ament_index/resource_index/package_run_dependencies/robot_trajectory
+[5.530s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/ament_index/resource_index/parent_prefix_path/robot_trajectory
+[5.530s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/robot_trajectory/environment/ament_prefix_path.sh
+[5.530s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/robot_trajectory/environment/ament_prefix_path.dsv
+[5.530s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/robot_trajectory/environment/path.sh
+[5.530s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/robot_trajectory/environment/path.dsv
+[5.530s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/robot_trajectory/local_setup.bash
+[5.530s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/robot_trajectory/local_setup.sh
+[5.531s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/robot_trajectory/local_setup.zsh
+[5.531s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/robot_trajectory/local_setup.dsv
+[5.531s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/robot_trajectory/package.dsv
+[5.531s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/ament_index/resource_index/packages/robot_trajectory
+[5.531s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/robot_trajectory/cmake/robot_trajectoryConfig.cmake
+[5.532s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/robot_trajectory/cmake/robot_trajectoryConfig-version.cmake
+[5.532s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory/share/robot_trajectory/package.xml
+[5.539s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/build/robot_trajectory' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/build/robot_trajectory

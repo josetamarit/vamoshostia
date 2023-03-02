@@ -6,8 +6,14 @@
 
 using namespace std::chrono_literals;
 
+double x;
+double y;
+
 void topic_callback(const nav_msgs::msg::Odometry::SharedPtr msg){
-	std::cout << msg << std::endl;
+	x = msg->pose.pose.position.x;
+	y = msg->pose.pose.position.y;
+	std::cout << "Pos x: " << x << std::endl;
+	std::cout << "Pos y: " << y << std::endl;
 }
 
 int main(int argc, char * argv[])
