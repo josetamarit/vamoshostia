@@ -14,6 +14,7 @@ double angle;
 double initialxp;
 double initialyp;
 double initialangle;
+double distance;
 
 void topic_callback(const nav_msgs::msg::Odometry::SharedPtr msg){
 	if (initialxp == 0 && initialyp == 0 && initialangle == 0) {
@@ -26,9 +27,14 @@ void topic_callback(const nav_msgs::msg::Odometry::SharedPtr msg){
 	xo = msg->pose.pose.orientation.x;
 	yo = msg->pose.pose.orientation.y;
 	angle = std::atan2(yo, xo);
+	distance = std::sqrt(std::pow(xp - initialxp, 2) + std::pow(yp - initialyp, 2));
+	std::cout << "Initial x: " << initialxp << std::endl;
+	std::cout << "Initial y: " << initialyp << std::endl;
 	std::cout << "Pos x: " << xp << std::endl;
 	std::cout << "Pos y: " << yp << std::endl;
 	std::cout << "Angle in radians: " << angle << std::endl;
+	std::cout << "distance: " << distance << std::endl;
+	std::cout << "----------" << std::endl;
 }
     
     
