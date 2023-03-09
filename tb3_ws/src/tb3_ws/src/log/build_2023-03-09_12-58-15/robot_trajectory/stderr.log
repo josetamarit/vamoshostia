@@ -1,0 +1,25 @@
+[01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square_odom.cpp:[m[K In function ‘[01m[Kvoid topic_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square_odom.cpp:20:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitial_xp[m[K’ was not declared in this scope; did you mean ‘[01m[Kinitialxp[m[K’?
+   20 |  if ([01;31m[Kinitial_xp[m[K == 0 && initial_yp == 0 && initial_angle == 0) {
+      |      [01;31m[K^~~~~~~~~~[m[K
+      |      [32m[Kinitialxp[m[K
+[01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square_odom.cpp:20:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitial_yp[m[K’ was not declared in this scope; did you mean ‘[01m[Kinitialyp[m[K’?
+   20 |  if (initial_xp == 0 && [01;31m[Kinitial_yp[m[K == 0 && initial_angle == 0) {
+      |                         [01;31m[K^~~~~~~~~~[m[K
+      |                         [32m[Kinitialyp[m[K
+[01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square_odom.cpp:20:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitial_angle[m[K’ was not declared in this scope; did you mean ‘[01m[Kinitialangle[m[K’?
+   20 |  if (initial_xp == 0 && initial_yp == 0 && [01;31m[Kinitial_angle[m[K == 0) {
+      |                                            [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                            [32m[Kinitialangle[m[K
+[01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square_odom.cpp:26:1:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+   26 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square_odom.cpp:35:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   35 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/square_odom.cpp:19:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   19 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/square_odom.dir/build.make:63: CMakeFiles/square_odom.dir/src/square_odom.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/square_odom.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

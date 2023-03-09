@@ -32,6 +32,7 @@ ament_target_dependencies(square_odom rclcpp nav_msgs)
 
 install (TARGETS
   square
+  square_odom
   DESTINATION lib/${PROJECT_NAME}
 )
 
