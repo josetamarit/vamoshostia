@@ -6,14 +6,21 @@
 
 using namespace std::chrono_literals;
 
-double x;
-double y;
+double xp;
+double yp;
+double xo;
+double yo;
+double angle;
 
 void topic_callback(const nav_msgs::msg::Odometry::SharedPtr msg){
-	x = msg->pose.pose.position.x;
-	y = msg->pose.pose.position.y;
-	std::cout << "Pos x: " << x << std::endl;
-	std::cout << "Pos y: " << y << std::endl;
+	xp= msg->pose.pose.position.x;
+	yp= msg->pose.pose.position.y;
+	xo= msg->pose.pose.orientation.x;
+	yo= msg->pose.pose.orientation.y;
+	angle=std::atan2(yo,xo);
+	std::cout << "Pos x: " << xp << std::endl;
+	std::cout << "Pos y: " << yp << std::endl;
+	std::cout << "Angle in radians: " << angle << std::endl;
 }
 
 int main(int argc, char * argv[])
