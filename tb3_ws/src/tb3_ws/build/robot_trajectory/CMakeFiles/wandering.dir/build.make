@@ -80,17 +80,16 @@ wandering_EXTERNAL_OBJECTS =
 wandering: CMakeFiles/wandering.dir/src/wandering.cpp.o
 wandering: CMakeFiles/wandering.dir/build.make
 wandering: /opt/ros/foxy/lib/librclcpp.so
+wandering: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+wandering: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_c.so
+wandering: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+wandering: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 wandering: /opt/ros/foxy/lib/liblibstatistics_collector.so
 wandering: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
 wandering: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so
 wandering: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_c.so
 wandering: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_cpp.so
 wandering: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_cpp.so
-wandering: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-wandering: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
-wandering: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so
-wandering: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-wandering: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so
 wandering: /opt/ros/foxy/lib/librcl.so
 wandering: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
 wandering: /opt/ros/foxy/lib/librcl_interfaces__rosidl_generator_c.so
@@ -113,6 +112,18 @@ wandering: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_generator_c.so
 wandering: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_c.so
 wandering: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
 wandering: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
+wandering: /opt/ros/foxy/lib/libtracetools.so
+wandering: /opt/ros/foxy/lib/libsensor_msgs__rosidl_generator_c.so
+wandering: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+wandering: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so
+wandering: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
+wandering: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+wandering: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+wandering: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+wandering: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
+wandering: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so
+wandering: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+wandering: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so
 wandering: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 wandering: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 wandering: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
@@ -125,7 +136,6 @@ wandering: /opt/ros/foxy/lib/librosidl_typesupport_c.so
 wandering: /opt/ros/foxy/lib/librcpputils.so
 wandering: /opt/ros/foxy/lib/librosidl_runtime_c.so
 wandering: /opt/ros/foxy/lib/librcutils.so
-wandering: /opt/ros/foxy/lib/libtracetools.so
 wandering: CMakeFiles/wandering.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable wandering"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wandering.dir/link.txt --verbose=$(VERBOSE)
