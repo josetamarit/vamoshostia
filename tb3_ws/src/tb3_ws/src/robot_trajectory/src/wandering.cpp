@@ -2,23 +2,33 @@
 #include "rclcpp/rclcpp.hpp"
 #include "geometry_msgs/msg/twist.hpp"
 #include "sensor_msgs/msg/laser_scan.hpp"
+#include <Eigen/Dense>
+
 
 using namespace std::chrono_literals;
 
 
 std::vector<float>vector;
+float min;
 
 void topic_callback(const sensor_msgs::msg::LaserScan::SharedPtr msg){
   vector= msg->ranges;
+  
+  //Muestra rango
+  
   for(int i=9;i>0; i--){
    std::cout<<vector[i]<<" ";
   }
+  
+  //Muestra rango
   
   for(int i=359;i>350; i--){
    std::cout<<vector[i]<<" ";
   }
   
   std::cout<<std::endl;
+  
+  Eigen::Map<>
   
 }
 
