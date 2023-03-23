@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named wandering
+
+# Build rule for target.
+wandering: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wandering
+.PHONY : wandering
+
+# fast build rule for target.
+wandering/fast:
+	$(MAKE) -f CMakeFiles/wandering.dir/build.make CMakeFiles/wandering.dir/build
+.PHONY : wandering/fast
+
+#=============================================================================
 # Target rules for targets named square_odom
 
 # Build rule for target.
@@ -273,6 +286,33 @@ src/square_odom.cpp.s:
 	$(MAKE) -f CMakeFiles/square_odom.dir/build.make CMakeFiles/square_odom.dir/src/square_odom.cpp.s
 .PHONY : src/square_odom.cpp.s
 
+src/wandering.o: src/wandering.cpp.o
+
+.PHONY : src/wandering.o
+
+# target to build an object file
+src/wandering.cpp.o:
+	$(MAKE) -f CMakeFiles/wandering.dir/build.make CMakeFiles/wandering.dir/src/wandering.cpp.o
+.PHONY : src/wandering.cpp.o
+
+src/wandering.i: src/wandering.cpp.i
+
+.PHONY : src/wandering.i
+
+# target to preprocess a source file
+src/wandering.cpp.i:
+	$(MAKE) -f CMakeFiles/wandering.dir/build.make CMakeFiles/wandering.dir/src/wandering.cpp.i
+.PHONY : src/wandering.cpp.i
+
+src/wandering.s: src/wandering.cpp.s
+
+.PHONY : src/wandering.s
+
+# target to generate assembly for a file
+src/wandering.cpp.s:
+	$(MAKE) -f CMakeFiles/wandering.dir/build.make CMakeFiles/wandering.dir/src/wandering.cpp.s
+.PHONY : src/wandering.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -286,6 +326,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... wandering"
 	@echo "... square_odom"
 	@echo "... square"
 	@echo "... robot_trajectory_uninstall"
@@ -296,6 +337,9 @@ help:
 	@echo "... src/square_odom.o"
 	@echo "... src/square_odom.i"
 	@echo "... src/square_odom.s"
+	@echo "... src/wandering.o"
+	@echo "... src/wandering.i"
+	@echo "... src/wandering.s"
 .PHONY : help
 
 
