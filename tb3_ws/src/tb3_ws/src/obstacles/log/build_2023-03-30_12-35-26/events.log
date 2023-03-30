@@ -1,0 +1,78 @@
+[0.000000] (-) TimerEvent: {}
+[0.001221] (obstacles) JobQueued: {'identifier': 'obstacles', 'dependencies': OrderedDict()}
+[0.001360] (obstacles) JobStarted: {'identifier': 'obstacles'}
+[0.024703] (obstacles) JobProgress: {'identifier': 'obstacles', 'progress': 'cmake'}
+[0.025223] (obstacles) Command: {'cmd': ['/usr/bin/cmake', '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles', '-DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles/install/obstacles'], 'cwd': '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles/build/obstacles', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'usuario'), ('SSH_AGENT_PID', '2888'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/usuario'), ('OLDPWD', '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2707'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install:/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/install:/home/usuario/Documentos/GitHub/vamoshostia/install:/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'usuario'), ('JOURNAL_STREAM', '8:60677'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'usuario'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/usuario/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labrob14.act.uji.es:@/tmp/.ICE-unix/2988,unix/labrob14.act.uji.es:/tmp/.ICE-unix/2988'), ('INVOCATION_ID', '553f983eede7400fbc08dcb71699a990'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/96ae000d_ce34_4cdc_bf00_346c2822511d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '68'), ('AMENT_PREFIX_PATH', '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory:/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/install/robot_trajectory:/home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory:/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics:/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum:/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/install/robot_trajectory:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles/build/obstacles'), ('LC_ALL', 'es_ES.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory:/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/install/robot_trajectory:/home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory:/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics:/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum:/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/install/robot_trajectory:/opt/ros/foxy')]), 'shell': False}
+[0.086562] (obstacles) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.098838] (-) TimerEvent: {}
+[0.140792] (obstacles) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.147106] (obstacles) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.198976] (-) TimerEvent: {}
+[0.222396] (obstacles) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.223574] (obstacles) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.292078] (obstacles) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.299055] (-) TimerEvent: {}
+[0.300338] (obstacles) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.300626] (obstacles) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.302967] (obstacles) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.385869] (obstacles) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.386881] (obstacles) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399161] (-) TimerEvent: {}
+[0.471778] (obstacles) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.481200] (obstacles) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.481543] (obstacles) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.484477] (obstacles) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.499308] (-) TimerEvent: {}
+[0.512929] (obstacles) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.513336] (obstacles) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.599455] (-) TimerEvent: {}
+[0.698966] (obstacles) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.699538] (-) TimerEvent: {}
+[0.735688] (obstacles) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.740966] (obstacles) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.799924] (-) TimerEvent: {}
+[0.811224] (obstacles) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.839290] (obstacles) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.899395] (obstacles) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900028] (-) TimerEvent: {}
+[0.941846] (obstacles) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.943035] (obstacles) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.945573] (obstacles) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.000166] (-) TimerEvent: {}
+[1.027308] (obstacles) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.027974] (obstacles) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.100310] (-) TimerEvent: {}
+[1.109896] (obstacles) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.110291] (obstacles) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.173051] (obstacles) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.173715] (obstacles) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.200436] (-) TimerEvent: {}
+[1.257568] (obstacles) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.258655] (obstacles) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.300556] (-) TimerEvent: {}
+[1.372181] (obstacles) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.400740] (-) TimerEvent: {}
+[1.462606] (obstacles) StderrLine: {'line': b'CMake Error at CMakeLists.txt:22 (find_package):\n'}
+[1.462809] (obstacles) StderrLine: {'line': b'  By not providing "Findexample_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[1.462874] (obstacles) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[1.462927] (obstacles) StderrLine: {'line': b'  "example_interfaces", but CMake did not find one.\n'}
+[1.462977] (obstacles) StderrLine: {'line': b'\n'}
+[1.463026] (obstacles) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[1.463075] (obstacles) StderrLine: {'line': b'  "example_interfaces" with any of the following names:\n'}
+[1.463125] (obstacles) StderrLine: {'line': b'\n'}
+[1.463174] (obstacles) StderrLine: {'line': b'    example_interfacesConfig.cmake\n'}
+[1.463223] (obstacles) StderrLine: {'line': b'    example_interfaces-config.cmake\n'}
+[1.463270] (obstacles) StderrLine: {'line': b'\n'}
+[1.463316] (obstacles) StderrLine: {'line': b'  Add the installation prefix of "example_interfaces" to CMAKE_PREFIX_PATH or\n'}
+[1.463367] (obstacles) StderrLine: {'line': b'  set "example_interfaces_DIR" to a directory containing one of the above\n'}
+[1.463487] (obstacles) StderrLine: {'line': b'  files.  If "example_interfaces" provides a separate development package or\n'}
+[1.463744] (obstacles) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[1.463841] (obstacles) StderrLine: {'line': b'\n'}
+[1.463899] (obstacles) StderrLine: {'line': b'\n'}
+[1.463951] (obstacles) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.464039] (obstacles) StdoutLine: {'line': b'See also "/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles/build/obstacles/CMakeFiles/CMakeOutput.log".\n'}
+[1.464155] (obstacles) StdoutLine: {'line': b'See also "/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles/build/obstacles/CMakeFiles/CMakeError.log".\n'}
+[1.471193] (obstacles) CommandEnded: {'returncode': 1}
+[1.505540] (-) TimerEvent: {}
+[1.510165] (obstacles) JobEnded: {'identifier': 'obstacles', 'rc': 1}
+[1.511413] (-) EventReactorShutdown: {}

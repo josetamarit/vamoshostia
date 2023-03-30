@@ -15,6 +15,8 @@ geometry_msgs/msg/twist.hpp
 /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/geometry_msgs/msg/twist.hpp
 sensor_msgs/msg/laser_scan.hpp
 /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/sensor_msgs/msg/laser_scan.hpp
+Eigen/Dense
+-
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp

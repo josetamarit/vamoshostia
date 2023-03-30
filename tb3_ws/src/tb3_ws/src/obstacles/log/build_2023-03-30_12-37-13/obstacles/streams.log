@@ -1,0 +1,31 @@
+[0.026s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles/build/obstacles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles/install/obstacles
+[0.041s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.070s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.251s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.276s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.278s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.373s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.409s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.410s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.511s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.600s] CMake Error at CMakeLists.txt:22 (find_package):
+[0.600s]   By not providing "Findexample_interfaces.cmake" in CMAKE_MODULE_PATH this
+[0.600s]   project has asked CMake to find a package configuration file provided by
+[0.600s]   "example_interfaces", but CMake did not find one.
+[0.600s] 
+[0.600s]   Could not find a package configuration file provided by
+[0.600s]   "example_interfaces" with any of the following names:
+[0.601s] 
+[0.601s]     example_interfacesConfig.cmake
+[0.601s]     example_interfaces-config.cmake
+[0.601s] 
+[0.601s]   Add the installation prefix of "example_interfaces" to CMAKE_PREFIX_PATH or
+[0.601s]   set "example_interfaces_DIR" to a directory containing one of the above
+[0.601s]   files.  If "example_interfaces" provides a separate development package or
+[0.601s]   SDK, be sure it has been installed.
+[0.601s] 
+[0.601s] 
+[0.601s] -- Configuring incomplete, errors occurred!
+[0.601s] See also "/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles/build/obstacles/CMakeFiles/CMakeOutput.log".
+[0.601s] See also "/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles/build/obstacles/CMakeFiles/CMakeError.log".
+[0.612s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles/build/obstacles' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles/install/obstacles

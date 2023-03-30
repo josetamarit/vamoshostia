@@ -13,6 +13,8 @@ rclcpp/rclcpp.hpp
 /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/rclcpp/rclcpp.hpp
 nav_msgs/msg/odometry.hpp
 /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/nav_msgs/msg/odometry.hpp
+geometry_msgs/msg/twist.hpp
+/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/geometry_msgs/msg/twist.hpp
 cmath
 -
 
@@ -220,6 +222,16 @@ stdint.h
 type_traits
 -
 
+/opt/ros/foxy/include/geometry_msgs/msg/detail/twist__builder.hpp
+geometry_msgs/msg/detail/twist__struct.hpp
+/opt/ros/foxy/include/geometry_msgs/msg/detail/geometry_msgs/msg/detail/twist__struct.hpp
+rosidl_runtime_cpp/message_initialization.hpp
+-
+algorithm
+-
+utility
+-
+
 /opt/ros/foxy/include/geometry_msgs/msg/detail/twist__struct.hpp
 rosidl_runtime_cpp/bounded_vector.hpp
 -
@@ -305,6 +317,14 @@ stdint.h
 -
 type_traits
 -
+
+/opt/ros/foxy/include/geometry_msgs/msg/twist.hpp
+geometry_msgs/msg/detail/twist__struct.hpp
+/opt/ros/foxy/include/geometry_msgs/msg/geometry_msgs/msg/detail/twist__struct.hpp
+geometry_msgs/msg/detail/twist__builder.hpp
+/opt/ros/foxy/include/geometry_msgs/msg/geometry_msgs/msg/detail/twist__builder.hpp
+geometry_msgs/msg/detail/twist__traits.hpp
+/opt/ros/foxy/include/geometry_msgs/msg/geometry_msgs/msg/detail/twist__traits.hpp
 
 /opt/ros/foxy/include/libstatistics_collector/collector/collector.hpp
 mutex

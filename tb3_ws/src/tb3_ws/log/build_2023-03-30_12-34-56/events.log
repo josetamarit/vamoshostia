@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.000156] (obstacles) JobQueued: {'identifier': 'obstacles', 'dependencies': OrderedDict()}
+[0.000190] (robot_trajectory) JobQueued: {'identifier': 'robot_trajectory', 'dependencies': OrderedDict()}
+[0.000208] (obstacles) JobStarted: {'identifier': 'obstacles'}
+[0.026772] (robot_trajectory) JobStarted: {'identifier': 'robot_trajectory'}
+[0.046044] (obstacles) JobProgress: {'identifier': 'obstacles', 'progress': 'cmake'}
+[0.046339] (obstacles) Command: {'cmd': ['/usr/bin/cmake', '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles', '-DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles'], 'cwd': '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'usuario'), ('SSH_AGENT_PID', '2888'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/usuario'), ('OLDPWD', '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2707'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install:/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/install:/home/usuario/Documentos/GitHub/vamoshostia/install:/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'usuario'), ('JOURNAL_STREAM', '8:60677'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'usuario'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/usuario/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labrob14.act.uji.es:@/tmp/.ICE-unix/2988,unix/labrob14.act.uji.es:/tmp/.ICE-unix/2988'), ('INVOCATION_ID', '553f983eede7400fbc08dcb71699a990'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/96ae000d_ce34_4cdc_bf00_346c2822511d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '68'), ('AMENT_PREFIX_PATH', '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory:/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/install/robot_trajectory:/home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory:/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics:/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum:/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/install/robot_trajectory:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles'), ('LC_ALL', 'es_ES.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory:/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/install/robot_trajectory:/home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory:/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics:/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum:/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/install/robot_trajectory:/opt/ros/foxy')]), 'shell': False}
+[0.051894] (robot_trajectory) JobProgress: {'identifier': 'robot_trajectory', 'progress': 'cmake'}
+[0.053644] (robot_trajectory) JobProgress: {'identifier': 'robot_trajectory', 'progress': 'build'}
+[0.054319] (robot_trajectory) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory', '--', '-j6', '-l6'], 'cwd': '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'usuario'), ('SSH_AGENT_PID', '2888'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/usuario'), ('OLDPWD', '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2707'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install:/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/install:/home/usuario/Documentos/GitHub/vamoshostia/install:/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'usuario'), ('JOURNAL_STREAM', '8:60677'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'usuario'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/usuario/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labrob14.act.uji.es:@/tmp/.ICE-unix/2988,unix/labrob14.act.uji.es:/tmp/.ICE-unix/2988'), ('INVOCATION_ID', '553f983eede7400fbc08dcb71699a990'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/96ae000d_ce34_4cdc_bf00_346c2822511d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '68'), ('AMENT_PREFIX_PATH', '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory:/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/install/robot_trajectory:/home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory:/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics:/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum:/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/install/robot_trajectory:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory'), ('LC_ALL', 'es_ES.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory:/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/install/robot_trajectory:/home/usuario/Documentos/GitHub/vamoshostia/install/robot_trajectory:/home/usuario/Documentos/GitHub/vamoshostia/install/examples_topics:/home/usuario/Documentos/GitHub/vamoshostia/install/examples_sum:/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/install/robot_trajectory:/opt/ros/foxy')]), 'shell': False}
+[0.098710] (-) TimerEvent: {}
+[0.128925] (robot_trajectory) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.165845] (robot_trajectory) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.198790] (-) TimerEvent: {}
+[0.224571] (obstacles) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.298933] (-) TimerEvent: {}
+[0.340237] (robot_trajectory) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.340982] (obstacles) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.346190] (obstacles) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.382422] (robot_trajectory) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.387688] (robot_trajectory) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.399037] (-) TimerEvent: {}
+[0.411518] (obstacles) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.413143] (obstacles) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.476786] (obstacles) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.486821] (obstacles) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.487355] (obstacles) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.489701] (obstacles) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.499133] (-) TimerEvent: {}
+[0.505680] (robot_trajectory) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.554185] (robot_trajectory) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.555830] (robot_trajectory) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.556720] (obstacles) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.557871] (obstacles) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.599246] (-) TimerEvent: {}
+[0.626060] (obstacles) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.635733] (obstacles) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.636006] (obstacles) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.639349] (obstacles) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.662555] (obstacles) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.662726] (obstacles) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.685548] (robot_trajectory) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.699597] (-) TimerEvent: {}
+[0.712572] (robot_trajectory) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[0.769453] (robot_trajectory) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[0.799720] (-) TimerEvent: {}
+[0.825074] (robot_trajectory) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.832755] (obstacles) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.870247] (obstacles) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.877121] (obstacles) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.895218] (robot_trajectory) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.899803] (-) TimerEvent: {}
+[0.906494] (robot_trajectory) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.906758] (robot_trajectory) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.906825] (robot_trajectory) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.915110] (robot_trajectory) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.915288] (robot_trajectory) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.916599] (robot_trajectory) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.919229] (robot_trajectory) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.920723] (robot_trajectory) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[0.929353] (robot_trajectory) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.929540] (robot_trajectory) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.931046] (robot_trajectory) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.935068] (robot_trajectory) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.947600] (obstacles) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.954641] (robot_trajectory) StdoutLine: {'line': b'-- Generating done\n'}
+[0.957138] (robot_trajectory) StdoutLine: {'line': b'-- Build files have been written to: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory\n'}
+[0.974273] (obstacles) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.994752] (robot_trajectory) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target square\x1b[0m\n'}
+[0.997269] (robot_trajectory) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target wandering\x1b[0m\n'}
+[0.997402] (robot_trajectory) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target square_odom\x1b[0m\n'}
+[0.999863] (-) TimerEvent: {}
+[1.019316] (robot_trajectory) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/square.dir/src/square.cpp.o\x1b[0m\n'}
+[1.021223] (robot_trajectory) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/wandering.dir/src/wandering.cpp.o\x1b[0m\n'}
+[1.024560] (robot_trajectory) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/square_odom.dir/src/square_odom.cpp.o\x1b[0m\n'}
+[1.035508] (obstacles) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.076860] (obstacles) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.078160] (obstacles) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.080021] (obstacles) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.099977] (-) TimerEvent: {}
+[1.139219] (obstacles) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.139526] (obstacles) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.200078] (-) TimerEvent: {}
+[1.203048] (obstacles) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.203261] (obstacles) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.207125] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/wandering.cpp:5:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KEigen/Dense: No existe el archivo o el directorio\n'}
+[1.207286] (robot_trajectory) StderrLine: {'line': b'    5 | #include \x1b[01;31m\x1b[K<Eigen/Dense>\x1b[m\x1b[K\n'}
+[1.207346] (robot_trajectory) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.207399] (robot_trajectory) StderrLine: {'line': b'compilation terminated.\n'}
+[1.208273] (robot_trajectory) StderrLine: {'line': b'make[2]: *** [CMakeFiles/wandering.dir/build.make:63: CMakeFiles/wandering.dir/src/wandering.cpp.o] Error 1\n'}
+[1.208576] (robot_trajectory) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/wandering.dir/all] Error 2\n'}
+[1.208659] (robot_trajectory) StderrLine: {'line': b'make[1]: *** Se espera a que terminen otras tareas....\n'}
+[1.251200] (obstacles) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.251401] (obstacles) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.300190] (-) TimerEvent: {}
+[1.310792] (obstacles) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.311559] (obstacles) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.400330] (-) TimerEvent: {}
+[1.421968] (obstacles) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.500412] (-) TimerEvent: {}
+[1.512287] (obstacles) StderrLine: {'line': b'CMake Error at CMakeLists.txt:22 (find_package):\n'}
+[1.512547] (obstacles) StderrLine: {'line': b'  By not providing "Findexample_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[1.512616] (obstacles) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[1.512667] (obstacles) StderrLine: {'line': b'  "example_interfaces", but CMake did not find one.\n'}
+[1.512716] (obstacles) StderrLine: {'line': b'\n'}
+[1.512765] (obstacles) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[1.512813] (obstacles) StderrLine: {'line': b'  "example_interfaces" with any of the following names:\n'}
+[1.512862] (obstacles) StderrLine: {'line': b'\n'}
+[1.512909] (obstacles) StderrLine: {'line': b'    example_interfacesConfig.cmake\n'}
+[1.512967] (obstacles) StderrLine: {'line': b'    example_interfaces-config.cmake\n'}
+[1.513089] (obstacles) StderrLine: {'line': b'\n'}
+[1.513220] (obstacles) StderrLine: {'line': b'  Add the installation prefix of "example_interfaces" to CMAKE_PREFIX_PATH or\n'}
+[1.513449] (obstacles) StderrLine: {'line': b'  set "example_interfaces_DIR" to a directory containing one of the above\n'}
+[1.513518] (obstacles) StderrLine: {'line': b'  files.  If "example_interfaces" provides a separate development package or\n'}
+[1.513570] (obstacles) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[1.513662] (obstacles) StderrLine: {'line': b'\n'}
+[1.513717] (obstacles) StderrLine: {'line': b'\n'}
+[1.513764] (obstacles) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.513851] (obstacles) StdoutLine: {'line': b'See also "/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles/CMakeFiles/CMakeOutput.log".\n'}
+[1.513944] (obstacles) StdoutLine: {'line': b'See also "/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles/CMakeFiles/CMakeError.log".\n'}
+[1.520122] (obstacles) CommandEnded: {'returncode': 1}
+[1.553096] (obstacles) JobEnded: {'identifier': 'obstacles', 'rc': 1}
+[1.600556] (-) TimerEvent: {}
+[1.700845] (-) TimerEvent: {}
+[1.801177] (-) TimerEvent: {}
+[1.901468] (-) TimerEvent: {}
+[2.001761] (-) TimerEvent: {}
+[2.102057] (-) TimerEvent: {}
+[2.202352] (-) TimerEvent: {}
+[2.302649] (-) TimerEvent: {}
+[2.402946] (-) TimerEvent: {}
+[2.503435] (-) TimerEvent: {}
+[2.603947] (-) TimerEvent: {}
+[2.704243] (-) TimerEvent: {}
+[2.804618] (-) TimerEvent: {}
+[2.904907] (-) TimerEvent: {}
+[3.005186] (-) TimerEvent: {}
+[3.105840] (-) TimerEvent: {}
+[3.206336] (-) TimerEvent: {}
+[3.306619] (-) TimerEvent: {}
+[3.406899] (-) TimerEvent: {}
+[3.416801] (robot_trajectory) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable square\x1b[0m\n'}
+[3.507022] (-) TimerEvent: {}
+[3.607292] (-) TimerEvent: {}
+[3.665263] (robot_trajectory) StdoutLine: {'line': b'[ 66%] Built target square\n'}
+[3.707419] (-) TimerEvent: {}
+[3.807702] (-) TimerEvent: {}
+[3.907984] (-) TimerEvent: {}
+[4.008271] (-) TimerEvent: {}
+[4.108564] (-) TimerEvent: {}
+[4.208842] (-) TimerEvent: {}
+[4.309134] (-) TimerEvent: {}
+[4.409412] (-) TimerEvent: {}
+[4.509703] (-) TimerEvent: {}
+[4.609999] (-) TimerEvent: {}
+[4.710298] (-) TimerEvent: {}
+[4.810584] (-) TimerEvent: {}
+[4.910970] (-) TimerEvent: {}
+[5.011270] (-) TimerEvent: {}
+[5.111574] (-) TimerEvent: {}
+[5.211931] (-) TimerEvent: {}
+[5.215642] (robot_trajectory) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable square_odom\x1b[0m\n'}
+[5.312037] (-) TimerEvent: {}
+[5.412330] (-) TimerEvent: {}
+[5.512666] (-) TimerEvent: {}
+[5.612955] (-) TimerEvent: {}
+[5.713215] (-) TimerEvent: {}
+[5.754048] (robot_trajectory) StdoutLine: {'line': b'[ 83%] Built target square_odom\n'}
+[5.754975] (robot_trajectory) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[5.756291] (robot_trajectory) JobEnded: {'identifier': 'robot_trajectory', 'rc': 'SIGINT'}
+[5.767140] (-) EventReactorShutdown: {}

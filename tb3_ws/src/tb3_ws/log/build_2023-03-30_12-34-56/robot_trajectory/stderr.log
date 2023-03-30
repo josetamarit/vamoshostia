@@ -1,0 +1,8 @@
+[01m[K/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/robot_trajectory/src/wandering.cpp:5:10:[m[K [01;31m[Kfatal error: [m[KEigen/Dense: No existe el archivo o el directorio
+    5 | #include [01;31m[K<Eigen/Dense>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/wandering.dir/build.make:63: CMakeFiles/wandering.dir/src/wandering.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/wandering.dir/all] Error 2
+make[1]: *** Se espera a que terminen otras tareas....
+make: *** [Makefile:141: all] Error 2

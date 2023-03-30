@@ -19,12 +19,14 @@ CMakeFiles/square_odom.dir/src/square_odom.cpp.o
  /opt/ros/foxy/include/geometry_msgs/msg/detail/pose_with_covariance__traits.hpp
  /opt/ros/foxy/include/geometry_msgs/msg/detail/quaternion__struct.hpp
  /opt/ros/foxy/include/geometry_msgs/msg/detail/quaternion__traits.hpp
+ /opt/ros/foxy/include/geometry_msgs/msg/detail/twist__builder.hpp
  /opt/ros/foxy/include/geometry_msgs/msg/detail/twist__struct.hpp
  /opt/ros/foxy/include/geometry_msgs/msg/detail/twist__traits.hpp
  /opt/ros/foxy/include/geometry_msgs/msg/detail/twist_with_covariance__struct.hpp
  /opt/ros/foxy/include/geometry_msgs/msg/detail/twist_with_covariance__traits.hpp
  /opt/ros/foxy/include/geometry_msgs/msg/detail/vector3__struct.hpp
  /opt/ros/foxy/include/geometry_msgs/msg/detail/vector3__traits.hpp
+ /opt/ros/foxy/include/geometry_msgs/msg/twist.hpp
  /opt/ros/foxy/include/libstatistics_collector/collector/collector.hpp
  /opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp
  /opt/ros/foxy/include/libstatistics_collector/collector/metric_details_interface.hpp

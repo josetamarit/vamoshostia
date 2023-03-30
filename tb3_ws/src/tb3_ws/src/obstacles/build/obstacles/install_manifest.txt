@@ -1,0 +1,16 @@
+/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles/install/obstacles/lib/obstacles/detector
+/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles/install/obstacles/share/ament_index/resource_index/package_run_dependencies/obstacles
+/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles/install/obstacles/share/ament_index/resource_index/parent_prefix_path/obstacles
+/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles/install/obstacles/share/obstacles/environment/ament_prefix_path.sh
+/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles/install/obstacles/share/obstacles/environment/ament_prefix_path.dsv
+/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles/install/obstacles/share/obstacles/environment/path.sh
+/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles/install/obstacles/share/obstacles/environment/path.dsv
+/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles/install/obstacles/share/obstacles/local_setup.bash
+/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles/install/obstacles/share/obstacles/local_setup.sh
+/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles/install/obstacles/share/obstacles/local_setup.zsh
+/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles/install/obstacles/share/obstacles/local_setup.dsv
+/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles/install/obstacles/share/obstacles/package.dsv
+/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles/install/obstacles/share/ament_index/resource_index/packages/obstacles
+/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles/install/obstacles/share/obstacles/cmake/obstaclesConfig.cmake
+/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles/install/obstacles/share/obstacles/cmake/obstaclesConfig-version.cmake
+/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles/install/obstacles/share/obstacles/package.xml
