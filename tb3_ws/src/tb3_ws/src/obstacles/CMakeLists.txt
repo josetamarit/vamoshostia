@@ -46,3 +46,11 @@ endif()
 
 ament_package()
 
+
+install (TARGETS
+   detector
+   DESTINATION lib/${PROJECT_NAME}
+   )
+   
+  install (DIRECTORY launch
+     DESTINATION share/${PROJECT_NAME})
