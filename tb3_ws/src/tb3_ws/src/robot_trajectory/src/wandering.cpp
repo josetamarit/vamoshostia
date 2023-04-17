@@ -4,13 +4,20 @@
 #include "geometry_msgs/msg/twist.hpp"
 #include <cmath> //M_PI
 #include <Eigen/Dense>
+
 #include <vector>
+
+
 using namespace std::chrono_literals;
+
 std::vector<float> vector;
 float min_val0;
 float min_val350;
-bool stop = false;
-float angular;
+bool obstacle = false;
+bool turn_left = false;
+bool turn_right = false;
+float angular = 0.3;
+
 void topic_callback(const sensor_msgs::msg::LaserScan::SharedPtr msg)
    {
 	
@@ -26,22 +33,27 @@ void topic_callback(const sensor_msgs::msg::LaserScan::SharedPtr msg)
     }
 
     if (vector[0] < 1){
-    	stop = true;
+    	obstacle = true;
     } else {
-    	stop = false;
+    	obstacle = false;
     }
 
 
     std::cout << std::endl;
-
+    
     // Mostrar mínimo
     Eigen::Map<Eigen::VectorXf> eigen_vector0(vector.data(), 10);
     Eigen::Map<Eigen::VectorXf> eigen_vector350(vector.data()+350, 10);
     
-    min_val0 = eigen_vector0.minCoeff(); 
-    min_val350 = eigen_vector350.minCoeff(); 
+    min_val0 = eigen_vector0.minCoeff(); //left
+    min_val350 = eigen_vector350.minCoeff(); // right
     
     
+    std::cout << "Minimum value[0-9]: " << min_val0 << std::endl;
+    std::cout << "Minimum value[350-359]: " << min_val350 << std::endl;
+    
+    
+   
    }
     
 int main(int argc, char * argv[]) 	
@@ -56,47 +68,65 @@ int main(int argc, char * argv[])
   auto publisher = node->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
   geometry_msgs::msg::Twist message;
   rclcpp::WallRate loop_rate(10ms);
-  
+
   const sensor_msgs::msg::LaserScan::SharedPtr msg;
-  
+
   //std::cout << vector[0] << std::endl;
-  
-  while (rclcpp::ok() && stop==false) // move forward 
-  {
-   	message.linear.x = 0.5;
+  std::cout << "" << std::endl;
+
+ 
+  while (rclcpp::ok()) // move forward 
+  { 
+  	if ( !turn_left && !turn_right ) {
+  	while (rclcpp::ok() && obstacle == false) {
+  	message.linear.x = 0.5;
   	message.angular.z = 0;
     publisher->publish(message);
     rclcpp::spin_some(node);
     loop_rate.sleep();
-    
-  }
-  
-  message.linear.x = 0;
-  publisher->publish(message);
-  rclcpp::spin_some(node);
-  loop_rate.sleep();
 
-  if ( min_val0 > min_val350) {
-   		angular = 0.5;
+  }
+  	
+
+
+   	if ( min_val0 > min_val350) {
+   		turn_left = true;
    	} else {
-   		angular = -0.5;
+   		turn_right = true;
+  		} 
+  	}
+
+  	if ( turn_left ) {
+  		while (rclcpp::ok() && obstacle == true) {
+  		message.linear.x = 0;
+  		message.angular.z = angular;
+    	publisher->publish(message);
+    	rclcpp::spin_some(node);
+    	loop_rate.sleep();
+  	}
+  	turn_left = false; 
   	}
 
 
-  while (rclcpp::ok() && stop==true) // girar izquierda 
-  {  
-   	message.linear.x = 0;
-  	message.angular.z = angular;
-    publisher->publish(message);
-    rclcpp::spin_some(node);
-    loop_rate.sleep();
+  	if ( turn_right ) {
+  		while (rclcpp::ok() && obstacle == true) {
+  		message.linear.x = 0;
+  		message.angular.z = 0 - angular;
+    	publisher->publish(message);
+    	rclcpp::spin_some(node);
+    	loop_rate.sleep();
+  	} 
+  	turn_right = false;
+  	}
 
   }
+
+
+  message.linear.x = 0;
   message.angular.z = 0;
   publisher->publish(message);
   rclcpp::spin_some(node);
   loop_rate.sleep();
-
 
   rclcpp::shutdown();
   return 0;
