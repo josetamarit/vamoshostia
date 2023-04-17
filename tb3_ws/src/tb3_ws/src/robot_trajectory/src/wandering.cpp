@@ -1,52 +1,34 @@
-#include <chrono>
-#include "rclcpp/rclcpp.hpp"
-#include "geometry_msgs/msg/twist.hpp"
 #include "sensor_msgs/msg/laser_scan.hpp"
+#include "geometry_msgs/msg/twist.hpp"
+#include <cmath> //M_PI
 #include <Eigen/Dense>
 
+#include <vector>
 
 using namespace std::chrono_literals;
 
+std::vector<float> vector;
+float min_val;
 
-std::vector<float>vector;
-float min;
+void topic_callback(const sensor_msgs::msg::LaserScan::SharedPtr msg)
+   {
 
-void topic_callback(const sensor_msgs::msg::LaserScan::SharedPtr msg){
-  vector= msg->ranges;
-  
-  //Muestra rango
-  
-  for(int i=9;i>0; i--){
-   std::cout<<vector[i]<<" ";
-  }
-  
-  //Muestra rango
-  
-  for(int i=359;i>350; i--){
-   std::cout<<vector[i]<<" ";
-  }
-  
-  std::cout<<std::endl;
-  
-  Eigen::Map<>
-  
-}
+	vector = msg->ranges;
 
-int main(int argc, char * argv[])
-{
-  rclcpp::init(argc, argv);
-  auto node = rclcpp::Node::make_shared("wandering");
-  auto publisher = node->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
-  auto subscriber= node->create_subscription<sensor_msgs::msg::LaserScan>("scan", 10, topic_callback);
-  geometry_msgs::msg::Twist message;
-  rclcpp::WallRate loop_rate(500ms);
+	// Mostrar rango
 
-  while (rclcpp::ok()) {
-    message.linear.x=0.0;
-    publisher->publish(message);
-    rclcpp::spin_some(node);
-    loop_rate.sleep();
-  }
-  rclcpp::shutdown();
-  return 0;
-}
+	for ( int i = 9; i>0; i--) {
+    std::cout << vector[i] << " ";
+    }
+@@ -25,6 +28,12 @@ void topic_callback(const sensor_msgs::msg::LaserScan::SharedPtr msg)
+
+    std::cout << std::endl;
+
+    // Mostrar mínimo
+    
+    Eigen::Map<Eigen::VectorXf> eigen_vector(vector.data(), vector.size());
+
+    min_val = eigen_vector.minCoeff();
+
+    std::cout << "Minimum value: " << min_val << std::endl;
+   }
