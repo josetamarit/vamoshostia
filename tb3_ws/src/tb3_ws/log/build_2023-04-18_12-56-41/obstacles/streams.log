@@ -1,0 +1,27 @@
+[0.042s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles -- -j6 -l6
+[0.085s] [100%] Built target detector
+[0.085s] [100%] Built target avoidance
+[0.092s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles -- -j6 -l6
+[0.113s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles
+[0.119s] -- Install configuration: ""
+[0.119s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/ament_index/resource_index/package_run_dependencies/obstacles
+[0.120s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/ament_index/resource_index/parent_prefix_path/obstacles
+[0.120s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/environment/ament_prefix_path.sh
+[0.120s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/environment/ament_prefix_path.dsv
+[0.120s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/environment/path.sh
+[0.120s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/environment/path.dsv
+[0.120s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/local_setup.bash
+[0.120s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/local_setup.sh
+[0.120s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/local_setup.zsh
+[0.120s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/local_setup.dsv
+[0.120s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/package.dsv
+[0.120s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/ament_index/resource_index/packages/obstacles
+[0.120s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/cmake/obstaclesConfig.cmake
+[0.120s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/cmake/obstaclesConfig-version.cmake
+[0.121s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/package.xml
+[0.124s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/lib/obstacles/detector
+[0.131s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/lib/obstacles/avoidance
+[0.137s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/launch
+[0.137s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/launch/detector_test.launch.py
+[0.137s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/launch/triple_detector.launch.py
+[0.139s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles

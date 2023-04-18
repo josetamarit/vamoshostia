@@ -16,3 +16,4 @@
 /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/lib/obstacles/detector
 /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/lib/obstacles/avoidance
 /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/launch/detector_test.launch.py
+/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/launch/triple_detector.launch.py
