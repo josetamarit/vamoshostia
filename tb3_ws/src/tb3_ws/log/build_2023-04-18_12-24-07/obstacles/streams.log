@@ -1,0 +1,62 @@
+[0.047s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles
+[0.059s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.076s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.235s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.261s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.264s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.358s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.393s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.394s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.496s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.578s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[0.668s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.746s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.751s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.751s] -- Configured cppcheck include dirs: 
+[0.751s] -- Configured cppcheck exclude dirs and/or files: 
+[0.757s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.757s] -- Configured cpplint exclude dirs and/or files: 
+[0.758s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.760s] -- Added test 'lint_cmake' to check CMake code style
+[0.761s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.767s] -- Added test 'uncrustify' to check C / C++ code style
+[0.767s] -- Configured uncrustify additional arguments: 
+[0.768s] -- Added test 'xmllint' to check XML markup files
+[0.772s] -- Configuring done
+[0.785s] -- Generating done
+[0.787s] -- Build files have been written to: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles
+[0.793s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/src/obstacles -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles
+[0.796s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles -- -j6 -l6
+[0.838s] [35m[1mScanning dependencies of target detector[0m
+[0.838s] [35m[1mScanning dependencies of target avoidance[0m
+[0.863s] [ 50%] [32mBuilding CXX object CMakeFiles/detector.dir/src/detector.cpp.o[0m
+[0.863s] [ 50%] [32mBuilding CXX object CMakeFiles/avoidance.dir/src/avoidance.cpp.o[0m
+[5.057s] [ 75%] [32m[1mLinking CXX executable avoidance[0m
+[5.124s] [100%] [32m[1mLinking CXX executable detector[0m
+[5.525s] [100%] Built target avoidance
+[5.572s] [100%] Built target detector
+[5.584s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles -- -j6 -l6
+[5.611s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles
+[5.621s] -- Install configuration: ""
+[5.621s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/ament_index/resource_index/package_run_dependencies/obstacles
+[5.622s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/ament_index/resource_index/parent_prefix_path/obstacles
+[5.622s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/environment/ament_prefix_path.sh
+[5.622s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/environment/ament_prefix_path.dsv
+[5.623s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/environment/path.sh
+[5.623s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/environment/path.dsv
+[5.623s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/local_setup.bash
+[5.624s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/local_setup.sh
+[5.624s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/local_setup.zsh
+[5.625s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/local_setup.dsv
+[5.625s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/package.dsv
+[5.625s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/ament_index/resource_index/packages/obstacles
+[5.626s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/cmake/obstaclesConfig.cmake
+[5.626s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/cmake/obstaclesConfig-version.cmake
+[5.626s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/package.xml
+[5.627s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/lib/obstacles/detector
+[5.650s] -- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/lib/obstacles/detector" to ""
+[5.650s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/lib/obstacles/avoidance
+[5.668s] -- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/lib/obstacles/avoidance" to ""
+[5.668s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/launch
+[5.668s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/obstacles/share/obstacles/launch/detector_test.launch.py
+[5.673s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles
