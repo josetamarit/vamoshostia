@@ -1,3 +1,18 @@
+1 de 1.744
+(sense assumpte)
+Safata d'entrada
+Adrián García Mollá
+	
+Fitxers adjunts13:06 (fa 0 minuts)
+	
+per a mi
+   
+Tradueix el missatge
+Desactiva per a: anglès
+
+1 fitxer adjunt  •  Escanejat per Gmail
+	
+
 cmake_minimum_required(VERSION 3.5)
 project(obstacles)
 
@@ -31,6 +46,16 @@ ament_target_dependencies(detector rclcpp sensor_msgs example_interfaces)
 add_executable(avoidance src/avoidance.cpp)
 ament_target_dependencies(avoidance rclcpp geometry_msgs example_interfaces)
 
+install (TARGETS
+  detector
+  avoidance
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install (DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME}
+)
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
@@ -44,12 +69,3 @@ endif()
 
 ament_package()
 
-
-install (TARGETS
-   detector
-   avoidance
-   DESTINATION lib/${PROJECT_NAME}
-   )
-   
-  install (DIRECTORY launch
-     DESTINATION share/${PROJECT_NAME})
