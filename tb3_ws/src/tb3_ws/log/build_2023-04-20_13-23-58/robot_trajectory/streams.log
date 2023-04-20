@@ -1,0 +1,4 @@
+[0.018s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory': /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory -- -j6 -l6
+[0.061s] [ 83%] Built target wandering
+[0.061s] [ 83%] Built target square_odom
+[0.061s] [100%] Built target square
