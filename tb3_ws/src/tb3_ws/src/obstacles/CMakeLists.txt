@@ -1,7 +1,3 @@
-   
-   
-   
-
 cmake_minimum_required(VERSION 3.5)
 project(obstacles)
 
@@ -35,6 +31,16 @@ ament_target_dependencies(detector rclcpp sensor_msgs example_interfaces)
 add_executable(avoidance src/avoidance.cpp)
 ament_target_dependencies(avoidance rclcpp geometry_msgs example_interfaces)
 
+install (TARGETS
+  detector
+  avoidance
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install (DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME}
+)
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
@@ -47,13 +53,3 @@ if(BUILD_TESTING)
 endif()
 
 ament_package()
-
-
-install (TARGETS
-   detector
-   avoidance
-   DESTINATION lib/${PROJECT_NAME}
-   )
-   
-  install (DIRECTORY launch
-     DESTINATION share/${PROJECT_NAME})

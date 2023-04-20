@@ -1,0 +1,23 @@
+[ 66%] Built target square_odom
+[100%] Built target square
+[100%] Built target wandering
+-- Install configuration: ""
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/lib/robot_trajectory/square
+-- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/lib/robot_trajectory/square" to ""
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/lib/robot_trajectory/square_odom
+-- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/lib/robot_trajectory/square_odom" to ""
+-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/ament_index/resource_index/package_run_dependencies/robot_trajectory
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/ament_index/resource_index/parent_prefix_path/robot_trajectory
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/environment/ament_prefix_path.sh
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/environment/ament_prefix_path.dsv
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/environment/path.sh
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/environment/path.dsv
+-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/local_setup.bash
+-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/local_setup.sh
+-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/local_setup.zsh
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/local_setup.dsv
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/package.dsv
+-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/ament_index/resource_index/packages/robot_trajectory
+-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/cmake/robot_trajectoryConfig.cmake
+-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/cmake/robot_trajectoryConfig-version.cmake
+-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/package.xml
