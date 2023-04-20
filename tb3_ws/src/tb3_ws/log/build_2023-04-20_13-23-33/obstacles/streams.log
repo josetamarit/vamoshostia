@@ -1,0 +1,11 @@
+[0.021s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles': /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles -- -j6 -l6
+[0.035s] CMake Error at CMakeLists.txt:1:
+[0.035s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.035s]   "//Cositas".
+[0.035s] 
+[0.035s] 
+[0.036s] -- Configuring incomplete, errors occurred!
+[0.036s] See also "/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles/CMakeFiles/CMakeOutput.log".
+[0.036s] See also "/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles/CMakeFiles/CMakeError.log".
+[0.037s] make: *** [Makefile:310: cmake_check_build_system] Error 1
+[0.038s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles' returned '2': /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles -- -j6 -l6
