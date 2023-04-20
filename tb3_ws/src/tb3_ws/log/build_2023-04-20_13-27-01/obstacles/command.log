@@ -1,0 +1,2 @@
+Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles': /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles -- -j6 -l6
+Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles' returned '2': /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles -- -j6 -l6

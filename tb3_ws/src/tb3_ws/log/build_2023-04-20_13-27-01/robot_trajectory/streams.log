@@ -1,0 +1,25 @@
+[0.022s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory': /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory -- -j6 -l6
+[0.068s] [100%] Built target wandering
+[0.069s] [100%] Built target square
+[0.069s] [100%] Built target square_odom
+[0.075s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory' returned '0': /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory -- -j6 -l6
+[0.102s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory': /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory
+[0.109s] -- Install configuration: ""
+[0.112s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/lib/robot_trajectory/square
+[0.119s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/lib/robot_trajectory/square_odom
+[0.123s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/ament_index/resource_index/package_run_dependencies/robot_trajectory
+[0.123s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/ament_index/resource_index/parent_prefix_path/robot_trajectory
+[0.123s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/environment/ament_prefix_path.sh
+[0.123s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/environment/ament_prefix_path.dsv
+[0.123s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/environment/path.sh
+[0.123s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/environment/path.dsv
+[0.123s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/local_setup.bash
+[0.123s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/local_setup.sh
+[0.123s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/local_setup.zsh
+[0.124s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/local_setup.dsv
+[0.124s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/package.dsv
+[0.124s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/ament_index/resource_index/packages/robot_trajectory
+[0.124s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/cmake/robot_trajectoryConfig.cmake
+[0.124s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/cmake/robot_trajectoryConfig-version.cmake
+[0.124s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/install/robot_trajectory/share/robot_trajectory/package.xml
+[0.127s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory' returned '0': /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/robot_trajectory

@@ -1,0 +1,24 @@
+[0.020s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles': /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles -- -j6 -l6
+[0.045s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.063s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.174s] Traceback (most recent call last):
+[0.174s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.174s]     from ament_package.templates import get_environment_hook_template_path
+[0.174s] ModuleNotFoundError: No module named 'ament_package'
+[0.188s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.188s]   execute_process(/usr/bin/python3
+[0.188s]   /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.188s]   /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles/ament_cmake_package_templates/templates.cmake)
+[0.188s]   returned error code 1
+[0.189s] Call Stack (most recent call first):
+[0.189s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.189s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.189s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.189s]   CMakeLists.txt:19 (find_package)
+[0.189s] 
+[0.189s] 
+[0.189s] -- Configuring incomplete, errors occurred!
+[0.189s] See also "/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles/CMakeFiles/CMakeOutput.log".
+[0.189s] See also "/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles/CMakeFiles/CMakeError.log".
+[0.191s] make: *** [Makefile:310: cmake_check_build_system] Error 1
+[0.192s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles' returned '2': /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/tb3_ws/src/tb3_ws/build/obstacles -- -j6 -l6
