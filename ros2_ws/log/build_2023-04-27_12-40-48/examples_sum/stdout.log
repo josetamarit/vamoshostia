@@ -1,0 +1,33 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/examples_sum
+[35m[1mScanning dependencies of target sum[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sum.dir/sum.cpp.o[0m
+[100%] [32m[1mLinking CXX executable sum[0m
+[100%] Built target sum
+-- Install configuration: ""
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/lib/examples_sum/sum
+-- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/lib/examples_sum/sum" to ""
+-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/ament_index/resource_index/package_run_dependencies/examples_sum
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/ament_index/resource_index/parent_prefix_path/examples_sum
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/examples_sum/environment/ament_prefix_path.sh
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/examples_sum/environment/ament_prefix_path.dsv
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/examples_sum/environment/path.sh
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/examples_sum/environment/path.dsv
+-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/examples_sum/local_setup.bash
+-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/examples_sum/local_setup.sh
+-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/examples_sum/local_setup.zsh
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/examples_sum/local_setup.dsv
+-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/examples_sum/package.dsv
+-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/ament_index/resource_index/packages/examples_sum
+-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/examples_sum/cmake/examples_sumConfig.cmake
+-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/examples_sum/cmake/examples_sumConfig-version.cmake
+-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_sum/share/examples_sum/package.xml

@@ -1,0 +1,11 @@
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/examples_topics/CMakeFiles/install/local.dir
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/examples_topics/CMakeFiles/install.dir
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/examples_topics/CMakeFiles/list_install_components.dir
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/examples_topics/CMakeFiles/rebuild_cache.dir
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/examples_topics/CMakeFiles/edit_cache.dir
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/examples_topics/CMakeFiles/test.dir
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/examples_topics/CMakeFiles/subscriber.dir
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/examples_topics/CMakeFiles/install/strip.dir
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/examples_topics/CMakeFiles/publisher.dir
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/examples_topics/CMakeFiles/examples_topics_uninstall.dir
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/examples_topics/CMakeFiles/uninstall.dir

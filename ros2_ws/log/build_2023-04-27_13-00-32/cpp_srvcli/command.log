@@ -1,0 +1,2 @@
+Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/cpp_srvcli -- -j6 -l6
+Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/cpp_srvcli -- -j6 -l6

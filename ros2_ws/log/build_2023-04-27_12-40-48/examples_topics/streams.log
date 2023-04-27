@@ -1,0 +1,43 @@
+[0.030s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/examples_topics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/examples_topics -- -j6 -l6
+[0.048s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.065s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.210s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.233s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.236s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.322s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.355s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.356s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.505s] -- Configuring done
+[0.521s] -- Generating done
+[0.523s] -- Build files have been written to: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/examples_topics
+[0.543s] [35m[1mScanning dependencies of target subscriber[0m
+[0.551s] [35m[1mScanning dependencies of target publisher[0m
+[0.566s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber.dir/subscriber.cpp.o[0m
+[0.571s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/publisher.cpp.o[0m
+[2.695s] [ 75%] [32m[1mLinking CXX executable publisher[0m
+[2.922s] [ 75%] Built target publisher
+[4.155s] [100%] [32m[1mLinking CXX executable subscriber[0m
+[4.581s] [100%] Built target subscriber
+[4.589s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/examples_topics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/examples_topics -- -j6 -l6
+[4.605s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/examples_topics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/examples_topics
+[4.611s] -- Install configuration: ""
+[4.615s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_topics/lib/examples_topics/publisher
+[4.628s] -- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_topics/lib/examples_topics/publisher" to ""
+[4.632s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_topics/lib/examples_topics/subscriber
+[4.651s] -- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_topics/lib/examples_topics/subscriber" to ""
+[4.652s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_topics/share/ament_index/resource_index/package_run_dependencies/examples_topics
+[4.652s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_topics/share/ament_index/resource_index/parent_prefix_path/examples_topics
+[4.652s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_topics/share/examples_topics/environment/ament_prefix_path.sh
+[4.652s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_topics/share/examples_topics/environment/ament_prefix_path.dsv
+[4.653s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_topics/share/examples_topics/environment/path.sh
+[4.653s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_topics/share/examples_topics/environment/path.dsv
+[4.654s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_topics/share/examples_topics/local_setup.bash
+[4.654s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_topics/share/examples_topics/local_setup.sh
+[4.654s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_topics/share/examples_topics/local_setup.zsh
+[4.654s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_topics/share/examples_topics/local_setup.dsv
+[4.655s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_topics/share/examples_topics/package.dsv
+[4.655s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_topics/share/ament_index/resource_index/packages/examples_topics
+[4.655s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_topics/share/examples_topics/cmake/examples_topicsConfig.cmake
+[4.656s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_topics/share/examples_topics/cmake/examples_topicsConfig-version.cmake
+[4.656s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/examples_topics/share/examples_topics/package.xml
+[4.660s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/examples_topics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/examples_topics

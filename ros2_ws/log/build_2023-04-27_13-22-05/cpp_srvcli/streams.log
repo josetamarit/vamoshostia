@@ -1,0 +1,51 @@
+[0.019s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/cpp_srvcli -- -j6 -l6
+[0.041s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.056s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.203s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.227s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.229s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.316s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.348s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.349s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.448s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[0.525s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.601s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.602s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.602s] -- Configured cppcheck include dirs: 
+[0.602s] -- Configured cppcheck exclude dirs and/or files: 
+[0.602s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.602s] -- Configured cpplint exclude dirs and/or files: 
+[0.603s] -- Added test 'lint_cmake' to check CMake code style
+[0.603s] -- Added test 'uncrustify' to check C / C++ code style
+[0.603s] -- Configured uncrustify additional arguments: 
+[0.603s] -- Added test 'xmllint' to check XML markup files
+[0.606s] -- Configuring done
+[0.620s] -- Generating done
+[0.622s] -- Build files have been written to: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/cpp_srvcli
+[0.643s] [35m[1mScanning dependencies of target client[0m
+[0.658s] [ 50%] Built target server
+[0.667s] [ 75%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[2.413s] [100%] [32m[1mLinking CXX executable client[0m
+[2.592s] [100%] Built target client
+[2.605s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/cpp_srvcli -- -j6 -l6
+[2.632s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/cpp_srvcli
+[2.639s] -- Install configuration: ""
+[2.643s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[2.646s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[2.655s] -- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[2.656s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[2.656s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[2.656s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[2.656s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[2.657s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[2.657s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[2.657s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[2.657s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[2.657s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[2.657s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[2.657s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[2.658s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[2.658s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[2.658s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[2.658s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[2.660s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/cpp_srvcli

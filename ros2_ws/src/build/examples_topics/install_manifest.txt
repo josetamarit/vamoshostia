@@ -1,0 +1,17 @@
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/examples_topics/lib/examples_topics/publisher
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/examples_topics/lib/examples_topics/subscriber
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/examples_topics/share/ament_index/resource_index/package_run_dependencies/examples_topics
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/examples_topics/share/ament_index/resource_index/parent_prefix_path/examples_topics
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/examples_topics/share/examples_topics/environment/ament_prefix_path.sh
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/examples_topics/share/examples_topics/environment/ament_prefix_path.dsv
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/examples_topics/share/examples_topics/environment/path.sh
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/examples_topics/share/examples_topics/environment/path.dsv
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/examples_topics/share/examples_topics/local_setup.bash
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/examples_topics/share/examples_topics/local_setup.sh
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/examples_topics/share/examples_topics/local_setup.zsh
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/examples_topics/share/examples_topics/local_setup.dsv
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/examples_topics/share/examples_topics/package.dsv
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/examples_topics/share/ament_index/resource_index/packages/examples_topics
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/examples_topics/share/examples_topics/cmake/examples_topicsConfig.cmake
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/examples_topics/share/examples_topics/cmake/examples_topicsConfig-version.cmake
+/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/examples_topics/share/examples_topics/package.xml
