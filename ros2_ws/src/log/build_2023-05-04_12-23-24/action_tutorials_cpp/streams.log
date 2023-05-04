@@ -1,0 +1,22 @@
+[0.022s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp -- -j6 -l6
+[0.083s] [100%] Built target action_server
+[0.094s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp -- -j6 -l6
+[0.125s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp
+[0.132s] -- Install configuration: ""
+[0.135s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/lib/action_tutorials_cpp/action_server
+[0.139s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp
+[0.139s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp
+[0.139s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.sh
+[0.139s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.dsv
+[0.139s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.sh
+[0.140s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.dsv
+[0.140s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.bash
+[0.140s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.sh
+[0.140s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.zsh
+[0.140s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.dsv
+[0.140s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv
+[0.140s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/ament_index/resource_index/packages/action_tutorials_cpp
+[0.140s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig.cmake
+[0.140s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig-version.cmake
+[0.140s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/package.xml
+[0.144s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp

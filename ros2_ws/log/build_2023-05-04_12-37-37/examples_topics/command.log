@@ -1,0 +1,1 @@
+Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/examples_topics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/examples_topics -- -j6 -l6

@@ -272,7 +272,7 @@ SITE:STRING=labrob24.act.uji.es
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/foxy/lib/libexample_interfaces__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for action_msgs.
 action_msgs_DIR:PATH=/opt/ros/foxy/share/action_msgs/cmake
@@ -380,7 +380,7 @@ cpp_srvcli_BINARY_DIR:STATIC=/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws
 cpp_srvcli_SOURCE_DIR:STATIC=/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/cpp_srvcli
 
 //The directory containing a CMake configuration file for example_interfaces.
-example_interfaces_DIR:PATH=/opt/ros/foxy/share/example_interfaces/cmake
+example_interfaces_DIR:PATH=example_interfaces_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for fastcdr.
 fastcdr_DIR:PATH=/opt/ros/foxy/lib/cmake/fastcdr

@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.000398] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000461] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000486] (-) JobUnselected: {'identifier': 'examples_sum'}
+[0.000532] (-) JobUnselected: {'identifier': 'examples_topics'}
+[0.000572] (action_tutorials_cpp) JobQueued: {'identifier': 'action_tutorials_cpp', 'dependencies': OrderedDict([('action_tutorials_interfaces', '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/action_tutorials_interfaces')])}
+[0.000607] (action_tutorials_cpp) JobStarted: {'identifier': 'action_tutorials_cpp'}
+[0.016704] (action_tutorials_cpp) JobProgress: {'identifier': 'action_tutorials_cpp', 'progress': 'cmake'}
+[0.018105] (action_tutorials_cpp) JobProgress: {'identifier': 'action_tutorials_cpp', 'progress': 'build'}
+[0.019081] (action_tutorials_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/action_tutorials_cpp', '--', '-j6', '-l6'], 'cwd': '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/action_tutorials_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'usuario'), ('SSH_AGENT_PID', '2861'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/usuario'), ('OLDPWD', '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2679'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'usuario'), ('JOURNAL_STREAM', '8:59853'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'usuario'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/usuario/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labrob22.act.uji.es:@/tmp/.ICE-unix/2952,unix/labrob22.act.uji.es:/tmp/.ICE-unix/2952'), ('INVOCATION_ID', 'f2dfbb3dcda14aa79d06f5dfb7f3efc6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2369ac59_ff6e_44ff_aadb_3c544dc1a98c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.127'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '70'), ('AMENT_PREFIX_PATH', '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/action_tutorials_cpp'), ('LC_ALL', 'es_ES.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces:/opt/ros/foxy')]), 'shell': False}
+[0.050153] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.073752] (action_tutorials_cpp) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.097598] (-) TimerEvent: {}
+[0.197886] (-) TimerEvent: {}
+[0.236733] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found action_tutorials_interfaces: 0.0.0 (/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake)\n'}
+[0.254146] (action_tutorials_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.256429] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.298047] (-) TimerEvent: {}
+[0.350219] (action_tutorials_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.398177] (-) TimerEvent: {}
+[0.455439] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.481321] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.482352] (action_tutorials_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.498309] (-) TimerEvent: {}
+[0.586055] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)\n'}
+[0.598423] (-) TimerEvent: {}
+[0.608368] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[0.648167] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.698542] (-) TimerEvent: {}
+[0.717531] (action_tutorials_cpp) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.718156] (action_tutorials_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.718334] (action_tutorials_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.718399] (action_tutorials_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.718694] (action_tutorials_cpp) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.718795] (action_tutorials_cpp) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.719115] (action_tutorials_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.719545] (action_tutorials_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.719602] (action_tutorials_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.719761] (action_tutorials_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.722202] (action_tutorials_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.738412] (action_tutorials_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[0.741315] (action_tutorials_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/action_tutorials_cpp\n'}
+[0.771253] (action_tutorials_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_client\x1b[0m\n'}
+[0.772940] (action_tutorials_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_server\x1b[0m\n'}
+[0.795305] (action_tutorials_cpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o\x1b[0m\n'}
+[0.797946] (action_tutorials_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o\x1b[0m\n'}
+[0.798607] (-) TimerEvent: {}
+[0.898843] (-) TimerEvent: {}
+[0.999156] (-) TimerEvent: {}
+[1.099457] (-) TimerEvent: {}
+[1.199849] (-) TimerEvent: {}
+[1.300553] (-) TimerEvent: {}
+[1.401073] (-) TimerEvent: {}
+[1.501567] (-) TimerEvent: {}
+[1.602105] (-) TimerEvent: {}
+[1.702387] (-) TimerEvent: {}
+[1.802681] (-) TimerEvent: {}
+[1.902975] (-) TimerEvent: {}
+[2.003470] (-) TimerEvent: {}
+[2.103733] (-) TimerEvent: {}
+[2.204031] (-) TimerEvent: {}
+[2.304515] (-) TimerEvent: {}
+[2.405018] (-) TimerEvent: {}
+[2.505531] (-) TimerEvent: {}
+[2.606091] (-) TimerEvent: {}
+[2.706496] (-) TimerEvent: {}
+[2.806763] (-) TimerEvent: {}
+[2.907093] (-) TimerEvent: {}
+[3.007380] (-) TimerEvent: {}
+[3.107657] (-) TimerEvent: {}
+[3.121410] (action_tutorials_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable action_server\x1b[0m\n'}
+[3.207768] (-) TimerEvent: {}
+[3.308030] (-) TimerEvent: {}
+[3.333151] (action_tutorials_cpp) StdoutLine: {'line': b'[ 75%] Built target action_server\n'}
+[3.368747] (action_tutorials_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable action_client\x1b[0m\n'}
+[3.408153] (-) TimerEvent: {}
+[3.508561] (-) TimerEvent: {}
+[3.608830] (-) TimerEvent: {}
+[3.663771] (action_tutorials_cpp) StdoutLine: {'line': b'[100%] Built target action_client\n'}
+[3.674199] (action_tutorials_cpp) CommandEnded: {'returncode': 0}
+[3.697913] (action_tutorials_cpp) JobProgress: {'identifier': 'action_tutorials_cpp', 'progress': 'install'}
+[3.708969] (action_tutorials_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/action_tutorials_cpp'], 'cwd': '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/action_tutorials_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'usuario'), ('SSH_AGENT_PID', '2861'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/usuario'), ('OLDPWD', '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2679'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'usuario'), ('JOURNAL_STREAM', '8:59853'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'usuario'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/usuario/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labrob22.act.uji.es:@/tmp/.ICE-unix/2952,unix/labrob22.act.uji.es:/tmp/.ICE-unix/2952'), ('INVOCATION_ID', 'f2dfbb3dcda14aa79d06f5dfb7f3efc6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2369ac59_ff6e_44ff_aadb_3c544dc1a98c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.127'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '70'), ('AMENT_PREFIX_PATH', '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/action_tutorials_cpp'), ('LC_ALL', 'es_ES.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces:/opt/ros/foxy')]), 'shell': False}
+[3.711250] (-) TimerEvent: {}
+[3.717559] (action_tutorials_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.723882] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/action_server\n'}
+[3.734879] (action_tutorials_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/action_server" to ""\n'}
+[3.738460] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/action_server\n'}
+[3.742783] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/action_client\n'}
+[3.752848] (action_tutorials_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/action_client" to ""\n'}
+[3.753041] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp\n'}
+[3.753106] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp\n'}
+[3.753159] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.sh\n'}
+[3.753208] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.dsv\n'}
+[3.753531] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.sh\n'}
+[3.753597] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.dsv\n'}
+[3.754007] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.bash\n'}
+[3.754197] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.sh\n'}
+[3.754275] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.zsh\n'}
+[3.754324] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.dsv\n'}
+[3.754560] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv\n'}
+[3.754923] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/packages/action_tutorials_cpp\n'}
+[3.755006] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig.cmake\n'}
+[3.755062] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig-version.cmake\n'}
+[3.755113] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.xml\n'}
+[3.756408] (action_tutorials_cpp) CommandEnded: {'returncode': 0}
+[3.814633] (-) TimerEvent: {}
+[3.825735] (action_tutorials_cpp) JobEnded: {'identifier': 'action_tutorials_cpp', 'rc': 0}
+[3.827129] (-) EventReactorShutdown: {}

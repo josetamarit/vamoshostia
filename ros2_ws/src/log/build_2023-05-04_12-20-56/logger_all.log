@@ -1,0 +1,193 @@
+[0.182s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'action_tutorials_cpp']
+[0.182s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6416141940>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['action_tutorials_cpp'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6416141940>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f6416141eb0>)
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.215s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(action_tutorials_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(action_tutorials_cpp) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(action_tutorials_cpp) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(action_tutorials_cpp) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(action_tutorials_cpp) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(action_tutorials_cpp) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(action_tutorials_cpp) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(action_tutorials_cpp) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(action_tutorials_cpp) by extension 'ros'
+[0.246s] DEBUG:colcon.colcon_core.package_identification:Package 'action_tutorials_cpp' with type 'ros.ament_cmake' and name 'action_tutorials_cpp'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(action_tutorials_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(action_tutorials_interfaces) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(action_tutorials_interfaces) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(action_tutorials_interfaces) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(action_tutorials_interfaces) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(action_tutorials_interfaces) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(action_tutorials_interfaces) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(action_tutorials_interfaces) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(action_tutorials_interfaces) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'action_tutorials_interfaces' with type 'ros.ament_cmake' and name 'action_tutorials_interfaces'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srvcli) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srvcli) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srvcli) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srvcli) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srvcli) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srvcli) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srvcli) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srvcli) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp_srvcli' with type 'ros.ament_cmake' and name 'cpp_srvcli'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extension 'ros'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extensions ['cmake', 'python']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extension 'cmake'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extension 'python'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extensions ['python_setup_py']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extension 'python_setup_py'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(examples/topics) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(examples/topics) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(examples/topics) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(examples/topics) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(examples/topics) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(examples/topics) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(examples/topics) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(examples/topics) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(examples/topics) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package 'examples/topics' with type 'ros.ament_cmake' and name 'examples_topics'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(sum) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(sum) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(sum) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(sum) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(sum) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(sum) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(sum) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(sum) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(sum) by extension 'ros'
+[0.263s] DEBUG:colcon.colcon_core.package_identification:Package 'sum' with type 'ros.ament_cmake' and name 'examples_sum'
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.281s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'action_tutorials_interfaces' in 'action_tutorials_interfaces'
+[0.281s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cpp_srvcli' in 'cpp_srvcli'
+[0.281s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'examples_sum' in 'sum'
+[0.281s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'examples_topics' in 'examples/topics'
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.295s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install
+[0.299s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/foxy
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'cmake_target' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.358s] DEBUG:colcon.colcon_core.verb:Building package 'action_tutorials_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp', 'merge_install': False, 'path': '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.359s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.364s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.364s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_cpp' with build type 'ament_cmake'
+[0.364s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_cpp'
+[0.370s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.370s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.370s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.384s] WARNING:colcon.colcon_core.shell:The following packages are in the workspace but haven't been built:
+- action_tutorials_interfaces
+They are being used from the following locations instead:
+- /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces
+To suppress this warning ignore these packages in the workspace:
+--packages-ignore action_tutorials_interfaces
+[0.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp
+[3.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp
+[3.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp -- -j6 -l6
+[92.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp -- -j6 -l6
+[93.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp
+[93.363s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_tutorials_cpp)
+[93.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp
+[93.369s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp' for CMake module files
+[93.369s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp' for CMake config files
+[93.369s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_cpp', 'cmake_prefix_path')
+[93.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/cmake_prefix_path.ps1'
+[93.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/cmake_prefix_path.dsv'
+[93.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/cmake_prefix_path.sh'
+[93.374s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/lib'
+[93.374s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/bin'
+[93.374s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/lib/pkgconfig/action_tutorials_cpp.pc'
+[93.374s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/lib/python3.8/site-packages'
+[93.374s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/bin'
+[93.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/package.ps1'
+[93.379s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv'
+[93.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/package.sh'
+[93.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/package.bash'
+[93.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/package.zsh'
+[93.382s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/colcon-core/packages/action_tutorials_cpp)
+[93.414s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_tutorials_cpp)
+[93.419s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp' for CMake module files
+[93.419s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp' for CMake config files
+[93.420s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_cpp', 'cmake_prefix_path')
+[93.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/cmake_prefix_path.ps1'
+[93.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/cmake_prefix_path.dsv'
+[93.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/cmake_prefix_path.sh'
+[93.426s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/lib'
+[93.426s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/bin'
+[93.427s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/lib/pkgconfig/action_tutorials_cpp.pc'
+[93.427s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/lib/python3.8/site-packages'
+[93.427s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/bin'
+[93.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/package.ps1'
+[93.437s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv'
+[93.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/package.sh'
+[93.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/package.bash'
+[93.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/package.zsh'
+[93.458s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/colcon-core/packages/action_tutorials_cpp)
+[93.462s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[93.463s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[93.463s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[93.463s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[93.469s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[93.469s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[93.469s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[93.485s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[93.487s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/local_setup.ps1'
+[93.489s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/_local_setup_util_ps1.py'
+[93.491s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/setup.ps1'
+[93.496s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/local_setup.sh'
+[93.498s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/_local_setup_util_sh.py'
+[93.499s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/setup.sh'
+[93.502s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/local_setup.bash'
+[93.502s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/setup.bash'
+[93.505s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/local_setup.zsh'
+[93.506s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/setup.zsh'

@@ -1,0 +1,1 @@
+Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/install/action_tutorials_interfaces

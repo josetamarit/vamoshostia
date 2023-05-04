@@ -1,0 +1,79 @@
+[0.028s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp
+[0.114s] -- The C compiler identification is GNU 9.4.0
+[0.232s] -- The CXX compiler identification is GNU 9.4.0
+[0.241s] -- Check for working C compiler: /usr/bin/cc
+[0.384s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.391s] -- Detecting C compiler ABI info
+[0.546s] -- Detecting C compiler ABI info - done
+[0.572s] -- Detecting C compile features
+[0.572s] -- Detecting C compile features - done
+[0.581s] -- Check for working CXX compiler: /usr/bin/c++
+[0.753s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.764s] -- Detecting CXX compiler ABI info
+[0.925s] -- Detecting CXX compiler ABI info - done
+[0.957s] -- Detecting CXX compile features
+[0.957s] -- Detecting CXX compile features - done
+[0.965s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.995s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.995s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.232s] -- Found action_tutorials_interfaces: 0.0.0 (/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake)
+[1.260s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.265s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.331s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.357s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.417s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.580s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.635s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.637s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.649s] -- Looking for pthread.h
+[1.909s] -- Looking for pthread.h - found
+[1.917s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.298s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.299s] -- Looking for pthread_create in pthreads
+[2.433s] -- Looking for pthread_create in pthreads - not found
+[2.438s] -- Looking for pthread_create in pthread
+[2.792s] -- Looking for pthread_create in pthread - found
+[2.803s] -- Found Threads: TRUE  
+[2.936s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[2.964s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[3.018s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.138s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.139s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.139s] -- Configured cppcheck include dirs: 
+[3.139s] -- Configured cppcheck exclude dirs and/or files: 
+[3.140s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.140s] -- Configured cpplint exclude dirs and/or files: 
+[3.141s] -- Added test 'lint_cmake' to check CMake code style
+[3.142s] -- Added test 'uncrustify' to check C / C++ code style
+[3.142s] -- Configured uncrustify additional arguments: 
+[3.142s] -- Added test 'xmllint' to check XML markup files
+[3.154s] -- Configuring done
+[3.168s] -- Generating done
+[3.187s] -- Build files have been written to: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp
+[3.198s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp
+[3.209s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp -- -j6 -l6
+[3.318s] [35m[1mScanning dependencies of target action_server[0m
+[3.477s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[52.285s] [100%] [32m[1mLinking CXX executable action_server[0m
+[92.587s] [100%] Built target action_server
+[92.600s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp -- -j6 -l6
+[92.646s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp
+[92.665s] -- Install configuration: ""
+[92.666s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/lib/action_tutorials_cpp/action_server
+[92.948s] -- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/lib/action_tutorials_cpp/action_server" to ""
+[92.948s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp
+[92.954s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp
+[92.962s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.sh
+[92.962s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.dsv
+[92.964s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.sh
+[92.964s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.dsv
+[92.966s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.bash
+[92.968s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.sh
+[92.969s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.zsh
+[92.971s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.dsv
+[92.978s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv
+[92.985s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/ament_index/resource_index/packages/action_tutorials_cpp
+[92.986s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig.cmake
+[92.988s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig-version.cmake
+[92.992s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/install/action_tutorials_cpp/share/action_tutorials_cpp/package.xml
+[92.999s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/build/action_tutorials_cpp

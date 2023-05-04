@@ -1,0 +1,226 @@
+[0.021s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces
+[0.413s] -- The C compiler identification is GNU 9.4.0
+[0.760s] -- The CXX compiler identification is GNU 9.4.0
+[0.777s] -- Check for working C compiler: /usr/bin/cc
+[1.101s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.107s] -- Detecting C compiler ABI info
+[1.423s] -- Detecting C compiler ABI info - done
+[1.454s] -- Detecting C compile features
+[1.455s] -- Detecting C compile features - done
+[1.467s] -- Check for working CXX compiler: /usr/bin/c++
+[1.760s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.767s] -- Detecting CXX compiler ABI info
+[2.030s] -- Detecting CXX compiler ABI info - done
+[2.066s] -- Detecting CXX compile features
+[2.067s] -- Detecting CXX compile features - done
+[2.080s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.121s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.121s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.340s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.434s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.440s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.447s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.540s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.566s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.640s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.722s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.088s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[3.885s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.441s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.472s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[4.474s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[4.508s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[4.508s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.508s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.508s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[4.533s] -- Found PythonExtra: .so  
+[4.829s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.836s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.838s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/build/action_tutorials_interfaces/rosidl_generator_c>;/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/build/action_tutorials_interfaces/rosidl_generator_c;/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/build/action_tutorials_interfaces/rosidl_generator_cpp;/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/build/action_tutorials_interfaces/rosidl_typesupport_fastrtps_c;/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/build/action_tutorials_interfaces/rosidl_typesupport_fastrtps_cpp;$<BUILD_INTERFACE:/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/build/action_tutorials_interfaces/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/build/action_tutorials_interfaces/rosidl_typesupport_c>;$<BUILD_INTERFACE:/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/build/action_tutorials_interfaces/rosidl_generator_cpp>;/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/build/action_tutorials_interfaces/rosidl_generator_py
+[4.838s] -- Configured cppcheck exclude dirs and/or files: 
+[4.842s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.842s] -- Configured cpplint exclude dirs and/or files: 
+[4.843s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.845s] -- Added test 'lint_cmake' to check CMake code style
+[4.846s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.849s] -- Added test 'uncrustify' to check C / C++ code style
+[4.849s] -- Configured uncrustify additional arguments: 
+[4.850s] -- Added test 'xmllint' to check XML markup files
+[4.934s] -- Configuring done
+[4.992s] -- Generating done
+[5.015s] -- Build files have been written to: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/build/action_tutorials_interfaces
+[5.026s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces
+[5.036s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/build/action_tutorials_interfaces -- -j6 -l6
+[5.179s] [35m[1mScanning dependencies of target action_tutorials_interfaces__cpp[0m
+[5.184s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.196s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.485s] [  6%] Built target action_tutorials_interfaces__cpp
+[5.546s] [35m[1mScanning dependencies of target action_tutorials_interfaces__rosidl_generator_c[0m
+[5.597s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.597s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.602s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.681s] [ 19%] [32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_generator_c.dir/rosidl_generator_c/action_tutorials_interfaces/action/detail/fibonacci__functions.c.o[0m
+[5.848s] [35m[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_cpp[0m
+[5.863s] [ 22%] [32m[1mLinking C shared library libaction_tutorials_interfaces__rosidl_generator_c.so[0m
+[5.869s] [35m[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_introspection_cpp[0m
+[5.911s] [35m[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[5.982s] [ 25%] [32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_tutorials_interfaces/action/fibonacci__type_support.cpp.o[0m
+[6.112s] [ 29%] [32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_tutorials_interfaces/action/detail/fibonacci__type_support.cpp.o[0m
+[6.288s] [ 32%] [32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_tutorials_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o[0m
+[6.309s] [ 32%] Built target action_tutorials_interfaces__rosidl_generator_c
+[6.396s] [ 35%] [32m[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_cpp.so[0m
+[6.397s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.398s] [ 41%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.755s] [35m[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_c[0m
+[6.877s] [35m[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_introspection_c[0m
+[7.222s] [ 45%] [32m[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[7.479s] [ 48%] [32m[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.492s] [ 48%] Built target action_tutorials_interfaces__rosidl_typesupport_cpp
+[7.560s] [ 51%] [32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_tutorials_interfaces/action/fibonacci__type_support.cpp.o[0m
+[7.566s] [ 54%] [32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_tutorials_interfaces/action/detail/fibonacci__type_support.c.o[0m
+[7.862s] [ 61%] [32m[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_c.so[0m
+[7.862s] [ 61%] [32m[1mLinking C shared library libaction_tutorials_interfaces__rosidl_typesupport_introspection_c.so[0m
+[10.128s] [ 61%] Built target action_tutorials_interfaces__rosidl_typesupport_c
+[10.730s] [ 61%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_c
+[10.735s] [ 61%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_cpp
+[10.738s] [ 61%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp
+[10.772s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[11.071s] [35m[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c[0m
+[11.172s] [ 67%] [32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_tutorials_interfaces/action/detail/fibonacci__type_support_c.cpp.o[0m
+[11.626s] [ 70%] [32m[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[12.352s] [ 70%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c
+[12.374s] [35m[1mScanning dependencies of target action_tutorials_interfaces[0m
+[12.398s] [ 70%] Built target action_tutorials_interfaces
+[12.432s] [35m[1mScanning dependencies of target action_tutorials_interfaces__py[0m
+[12.456s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[13.101s] [ 74%] Built target action_tutorials_interfaces__py
+[13.148s] [35m[1mScanning dependencies of target action_tutorials_interfaces__python[0m
+[13.253s] [ 77%] [32mBuilding C object CMakeFiles/action_tutorials_interfaces__python.dir/rosidl_generator_py/action_tutorials_interfaces/action/_fibonacci_s.c.o[0m
+[13.444s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/action_tutorials_interfaces/libaction_tutorials_interfaces__python.so[0m
+[13.858s] [ 80%] Built target action_tutorials_interfaces__python
+[13.968s] [35m[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[13.968s] [35m[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_c__pyext[0m
+[13.969s] [35m[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[14.127s] [ 83%] [32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[14.129s] [ 87%] [32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[14.131s] [ 90%] [32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.308s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[14.310s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[14.323s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[14.993s] [100%] Built target action_tutorials_interfaces__rosidl_typesupport_c__pyext
+[15.046s] [100%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext
+[15.209s] [100%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[15.221s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/build/action_tutorials_interfaces -- -j6 -l6
+[15.288s] Invoking command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/build/action_tutorials_interfaces
+[15.314s] -- Install configuration: ""
+[15.314s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/ament_index/resource_index/rosidl_interfaces/action_tutorials_interfaces
+[15.321s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces
+[15.321s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg
+[15.321s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg/rosidl_generator_c__visibility_control.h
+[15.324s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action
+[15.324s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/fibonacci.h
+[15.326s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail
+[15.326s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__type_support.h
+[15.328s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__functions.c
+[15.337s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__struct.h
+[15.341s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__functions.h
+[15.349s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/library_path.sh
+[15.349s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/library_path.dsv
+[15.357s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_generator_c.so
+[15.399s] -- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_generator_c.so" to ""
+[15.399s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces
+[15.399s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg
+[15.399s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.401s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action
+[15.401s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail
+[15.401s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[15.403s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_c.so
+[15.439s] -- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[15.439s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces
+[15.439s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg
+[15.439s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.443s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action
+[15.444s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail
+[15.444s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/dds_fastrtps
+[15.444s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[15.452s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[15.526s] -- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.527s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces
+[15.527s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg
+[15.527s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.529s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action
+[15.529s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail
+[15.529s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[15.531s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__type_support.c
+[15.536s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_c.so
+[15.579s] -- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[15.579s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_c.so
+[15.621s] -- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_c.so" to ""
+[15.621s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces
+[15.621s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action
+[15.621s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail
+[15.621s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__struct.hpp
+[15.629s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__traits.hpp
+[15.638s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__builder.hpp
+[15.647s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/fibonacci.hpp
+[15.654s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces
+[15.654s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action
+[15.654s] -- Up-to-date: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail
+[15.654s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__type_support.cpp
+[15.659s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[15.668s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_cpp.so
+[15.749s] -- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[15.750s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_cpp.so
+[15.793s] -- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_cpp.so" to ""
+[15.793s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/pythonpath.sh
+[15.795s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/pythonpath.dsv
+[15.800s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/__init__.py
+[15.833s] Compiling '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/__init__.py'...
+[15.836s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action
+[15.836s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action/_fibonacci.py
+[15.851s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action/__init__.py
+[15.857s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action/_fibonacci_s.c
+[15.861s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[15.905s] -- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[15.905s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[15.956s] -- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[15.956s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[15.997s] -- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[15.997s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__python.so
+[16.041s] -- Set runtime path of "/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__python.so" to ""
+[16.041s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/action/Fibonacci.idl
+[16.044s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/action/Fibonacci.action
+[16.046s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/ament_index/resource_index/package_run_dependencies/action_tutorials_interfaces
+[16.046s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/ament_index/resource_index/parent_prefix_path/action_tutorials_interfaces
+[16.048s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.sh
+[16.049s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.dsv
+[16.051s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.sh
+[16.051s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.dsv
+[16.053s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.bash
+[16.055s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.sh
+[16.058s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.zsh
+[16.060s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.dsv
+[16.069s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.dsv
+[16.074s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/ament_index/resource_index/packages/action_tutorials_interfaces
+[16.075s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_generator_cExport.cmake
+[16.082s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_generator_cExport-noconfig.cmake
+[16.088s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[16.094s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.101s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cExport.cmake
+[16.110s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[16.116s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_generator_cppExport.cmake
+[16.124s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[16.133s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.139s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cppExport.cmake
+[16.146s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[16.152s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake-extras.cmake
+[16.154s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.156s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[16.158s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[16.161s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.165s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.168s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.170s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig.cmake
+[16.173s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig-version.cmake
+[16.175s] -- Installing: /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.xml
+[16.187s] Invoked command in '/home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/vamoshostia/ros2_ws/src/action_tutorials_interfaces/build/action_tutorials_interfaces
