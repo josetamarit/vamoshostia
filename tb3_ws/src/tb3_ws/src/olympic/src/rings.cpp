@@ -25,7 +25,6 @@ int main(int argc, char * argv[])
 
  node->declare_parameter("radius_length", 1.0);
  geometry_msgs::msg::Twist message;
- auto publish_count = 0;
  rclcpp::WallRate loop_rate(500ms);
 
 
@@ -88,7 +87,7 @@ int main(int argc, char * argv[])
 
   std::vector<double> x = {5.5, (5.5-2*radius), (5.5+2*radius), (5.5-radius), (5.5+radius)};
   std::vector<double> y = {5.5, 5.5, 5.5, (5.5-radius), (5.5-radius)};  
-  std::vector<double> y = {5.5, 5.5, 5.5, (5.5-radius), (5.5-radius)};    
+     
 
 
   while (!client_tp->wait_for_service(1s)) {
@@ -114,16 +113,16 @@ int main(int argc, char * argv[])
 
 
 
-  }
+  
 
 
   for (int i=0; i<5; i++) {
     request->off = 1;
 
 
-    request->red = red[i];
-    request->green = green[i];
-    request->blue = blue[i];
+    request->r = red[i];
+    request->g = green[i];
+    request->b = blue[i];
     request_tp->x = x[i];
     request_tp->y = y[i];
     result = client->async_send_request(request);
@@ -133,7 +132,7 @@ int main(int argc, char * argv[])
     request->off = 0;
     result = client->async_send_request(request);
 
-
+	}
 
 
   for (int i = 0; i < iterations; i++) {
