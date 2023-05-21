@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(olympic)
+project(olympic_interfaces)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -17,31 +17,9 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(rclcpp REQUIRED)
-find_package(turtlesim REQUIRED)
-find_package(geometry_msgs REQUIRED)
-find_package(example_interfaces REQUIRED)
-find_package(rclcpp_action REQUIRED)
-find_package(rclcpp_components REQUIRED)
-find_package(olympic_interfaces REQUIRED)
-
-
-add_executable(rings src/rings.cpp)
-ament_target_dependencies(rings rclcpp turtlesim geometry_msgs)
-
-add_executable(action_server src/rings_action_server.cpp)
-ament_target_dependencies(action_server rclcpp turtlesim geometry_msgs rclcpp_action
-olympic_interfaces)
-
-add_executable(action_client src/rings_action_client.cpp)
-ament_target_dependencies(action_client rclcpp turtlesim geometry_msgs rclcpp_action
-olympic_interfaces)
-
-install(TARGETS
-  rings
-  action_server
-  action_client
-  DESTINATION lib/${PROJECT_NAME})
+# uncomment the following section in order to fill in
+# further dependencies manually.
+# find_package(<dependency> REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -54,3 +32,4 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+ament_package()
