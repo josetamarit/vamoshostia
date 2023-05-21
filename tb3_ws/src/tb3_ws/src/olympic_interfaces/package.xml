@@ -4,10 +4,15 @@
   <name>olympic_interfaces</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="113520207+josetamarit@users.noreply.github.com">josetamarit</maintainer>
+  <maintainer email="jose@todo.todo">edgar</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+  
+  <depend>action_msgs</depend>
+  
+  <member_of_group>rosidl_interface_packages</member_of_group>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
@@ -16,3 +21,4 @@
     <build_type>ament_cmake</build_type>
   </export>
 </package>
+
