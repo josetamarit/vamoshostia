@@ -1,159 +1,106 @@
-#include "rclcpp/rclcpp.hpp"
-#include "std_msgs/msg/string.hpp"
-#include "geometry_msgs/msg/twist.hpp"
-#include <cmath>
+#include <inttypes.h>
 #include <memory>
-#include <cstdlib>
-#include "turtlesim/srv/set_pen.hpp"
-#include "turtlesim/srv/teleport_absolute.hpp"
-#include <vector>
+#include "olympic_interfaces/action/rings.hpp"
+#include "rclcpp/rclcpp.hpp"
+#include "rclcpp_action/rclcpp_action.hpp"
+#include <<sstream>
+#include <iomanip>
 
+using Rings = 
+  olympic_interfaces::action::Rings;
 
-
-
+using GoalHandleRings =
+  rclcpp_action::ClientGoalHandle<Rings>;
 using namespace std::chrono_literals;
-using turtlesim::srv::SetPen;
-using turtlesim::srv::TeleportAbsolute;
 
+rclcpp::Node::SharedPtr g_node = nullptr;
+void feedback_callback(GoalHandleRings::SharedPtr,
+  const std::shared_ptr<const Rings::Feedback> feedback)
+{  std::stringstream ss;
+  ss << std::setprecision(3) << "Circle nº" << feedback->drawing_ring << " at " << feedback->ring_angle << " degrees";
+  RCLCPP_INFO(g_node->get_logger, ss.str().c_str()); //ss --> string --> char*
 
-int main(int argc, char * argv[])
-{
- rclcpp::init(argc, argv);
- auto node = rclcpp::Node::make_shared("rings");
- auto publisher = node->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
-
-
- node->declare_parameter("radius_length", 1.0);
- geometry_msgs::msg::Twist message;
- rclcpp::WallRate loop_rate(500ms);
-
-
- double radius = node->get_parameter("radius_length").get_parameter_value().get<double>();
-
-
- double circle= 2* M_PI;
-
-
- int iterations = static_cast<int>(circle/0.500);
-
-
- RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Ready to set pen.");
-
-
-  auto client = node->create_client<SetPen>("/turtle1/set_pen");
-
-
-  auto request = std::make_shared<SetPen::Request>();
-
-
-  request->width = 5;    
- 
-  std::vector<int> red = {0, 0, 255, 255, 0};
-  std::vector<int> green = {0, 0, 0, 255, 255};
-  std::vector<int> blue = {0, 255, 0, 0, 0};
-
-
-  while (!client->wait_for_service(1s)) {
-    if (!rclcpp::ok()) {
-      RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Interrupted while waiting for the service.");
-      return 0;
-    }
-    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "service not available, waiting again...");
-  }
-
-
-  auto result = client->async_send_request(request);
-
-
-  if (rclcpp::spin_until_future_complete(node,result) == rclcpp::FutureReturnCode::SUCCESS)
-  {
-    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Todo bien");
-  } else  {
-    RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Failed to call service SetPen");
-  }
-
-
-
-
-  auto client_tp = node->create_client<TeleportAbsolute>("/turtle1/teleport_absolute");
-
-
-  auto request_tp = std::make_shared<TeleportAbsolute::Request>();
-
-
-  request_tp->x = 5.5;
-  request_tp->y = 5.5;
-
-
-  std::vector<double> x = {5.5, (5.5-2*radius), (5.5+2*radius), (5.5-radius), (5.5+radius)};
-  std::vector<double> y = {5.5, 5.5, 5.5, (5.5-radius), (5.5-radius)};  
-     
-
-
-  while (!client_tp->wait_for_service(1s)) {
-    if (!rclcpp::ok()) {
-      RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Interrupted while waiting for the service.");
-      return 0;
-    }
-    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "service not available, waiting again...");
-  }
-
-
-  auto result_tp = client_tp->async_send_request(request_tp);
-
-
-  // Wait for the result
-  if (rclcpp::spin_until_future_complete(node,result_tp) == rclcpp::FutureReturnCode::SUCCESS)
-  {
-    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Todo bien");
-  } else  {
-    RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Failed to call service SetPen");
-  }  
-
-
-
-
-  
-
-
-  for (int i=0; i<5; i++) {
-    request->off = 1;
-
-
-    request->r = red[i];
-    request->g = green[i];
-    request->b = blue[i];
-    request_tp->x = x[i];
-    request_tp->y = y[i];
-    result = client->async_send_request(request);
-    result_tp = client_tp->async_send_request(request_tp);
-
-
-    request->off = 0;
-    result = client->async_send_request(request);
-
-	}
-
-
-  for (int i = 0; i < iterations; i++) {
-    message.linear.x = 1;
-    message.angular.z = 2*M_PI / circle;
-    publisher->publish(message);
- 
-
-
-    rclcpp::spin_some(node);
-    loop_rate.sleep();
- }
-
-
-  message.linear.x = 0;
-  message.angular.z = 0;
-  publisher->publish(message);
-
-
- rclcpp::shutdown();
- return 0;
 }
+
+int main(int argc, char ** argv)
+{
+  rclcpp::init(argc, argv);
+  g_node = rclcpp::Node::make_shared("action_client");
+  // param
+  g_node->->declare_parameter("radius", 1.0);
+  doble radius = g_node->get_parameter("radius").get_parameter_value().get<double>();
+  auto action_client = rclcpp_action::create_client<Rings>(
+    g_node, "rings");
+    
+    if (!action_client->wait_for_action_server(20s)) {
+    RCLCPP_ERROR(g_node->get_logger(), 
+      "Action server not available after waiting");
+    return 1;
+  }
+  
+  
+  
+  auto goal_msg = Rings::Goal();
+  goal_msg.radius = radius;
+  RCLCPP_INFO(g_node->get_logger(), 
+    "Sending goal");
+  auto send_goal_options = 
+    rclcpp_action::Client<Rings>::SendGoalOptions();
+  send_goal_options.feedback_callback = feedback_callback;
+  auto goal_handle_future = 
+    action_client->async_send_goal(goal_msg, send_goal_options);
+    auto return_code = rclcpp::spin_until_future_complete(g_node,
+    goal_handle_future);
+    if (return_code != rclcpp::FutureReturnCode::SUCCESS)
+  {
+    RCLCPP_ERROR(g_node->get_logger(), 
+      "send goal call failed :(");
+    return 1;
+  }
+  
+  GoalHandleRings::SharedPtr goal_handle = 
+    goal_handle_future.get();
+  if (!goal_handle) {
+    RCLCPP_ERROR(g_node->get_logger(), 
+      "Goal was rejected by server");
+    return 1;
+  }
+   auto result_future = 
+    action_client->async_get_result(goal_handle);
+
+  RCLCPP_INFO(g_node->get_logger(), "Waiting for result");
+  return_code = rclcpp::spin_until_future_complete(g_node, 
+    result_future);
+  if (return_code != rclcpp::FutureReturnCode::SUCCESS)
+  {
+    RCLCPP_ERROR(g_node->get_logger(), 
+      "get result call failed :(");
+    return 1;
+  }
+ GoalHandleRings::WrappedResult wrapped_result = 
+    result_future.get();
+  switch (wrapped_result.code) {
+    case rclcpp_action::ResultCode::SUCCEEDED:
+      break;
+    case rclcpp_action::ResultCode::ABORTED:
+      RCLCPP_ERROR(g_node->get_logger(), "Goal was aborted");
+      return 1;
+    case rclcpp_action::ResultCode::CANCELED:
+      RCLCPP_ERROR(g_node->get_logger(), "Goal was canceled");
+      return 1;
+    default:
+      RCLCPP_ERROR(g_node->get_logger(), "Unknown result code");
+      return 1;
+  }
+  
+  RCLCPP_INFO(g_node->get_logger(), "result received");
+  
+   action_client.reset();
+  g_node.reset();
+  rclcpp::shutdown();
+  return 0;
+}
+
+
 
 
